@@ -1,0 +1,17 @@
+[build]
+  publish = "publico"
+
+# Configuración de rutas estáticas y tipos MIME
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+
+# Si conectas un backend Node.js en Render o Railway, descomenta y pon tu URL:
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://tu-servidor-backend.onrender.com/api/:splat"
+#   status = 200
+#   force = true
+

@@ -1,0 +1,157 @@
+[
+  {
+    "usuarioId": "usu_000004",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "preguntasIds": [
+      "pre_test_vf_3",
+      "pre_test_co_3",
+      "pre_test_op_3",
+      "pre_test_op_4",
+      "pre_test_co_1",
+      "pre_test_vf_2",
+      "pre_test_vf_1",
+      "pre_test_op_1",
+      "pre_test_co_2",
+      "pre_test_op_2"
+    ],
+    "respuestas": {},
+    "inicio": "2026-10-31T01:53:41.500Z",
+    "finalizada": false,
+    "id": "qui_000001",
+    "fecha": "2026-10-31T01:53:41.500Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "preguntasIds": [
+      "pre_test_co_2",
+      "pre_test_co_3",
+      "pre_test_op_1",
+      "pre_test_vf_2",
+      "pre_test_op_2",
+      "pre_test_vf_1",
+      "pre_test_op_4",
+      "pre_test_op_3",
+      "pre_test_vf_3",
+      "pre_test_co_1"
+    ],
+    "respuestas": {
+      "pre_test_co_2": {
+        "respuesta": "q",
+        "correcto": false,
+        "fecha": "2026-10-31T01:56:21.522Z"
+      }
+    },
+    "inicio": "2026-10-31T01:56:10.549Z",
+    "finalizada": false,
+    "id": "qui_000002",
+    "fecha": "2026-10-31T01:56:10.549Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "preguntasIds": [
+      "pre_000069",
+      "pre_000068",
+      "pre_000079",
+      "pre_000070",
+      "pre_000065",
+      "pre_000062",
+      "pre_000075",
+      "pre_000064",
+      "pre_000072",
+      "pre_000080"
+    ],
+    "respuestas": {},
+    "inicio": "2026-10-31T01:56:57.801Z",
+    "finalizada": false,
+    "id": "qui_000003",
+    "fecha": "2026-10-31T01:56:57.802Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "preguntasIds": [
+      "pre_000073",
+      "pre_000067",
+      "pre_000071",
+      "pre_000074",
+      "pre_000077",
+      "pre_000078",
+      "pre_000063",
+      "pre_000066",
+      "pre_000061",
+      "pre_000076"
+    ],
+    "respuestas": {
+      "pre_000073": {
+        "respuesta": "0",
+        "correcto": true,
+        "fecha": "2026-10-31T13:14:11.119Z"
+      },
+      "pre_000067": {
+        "respuesta": "0",
+        "correcto": true,
+        "fecha": "2026-10-31T13:14:16.046Z"
+      }
+    },
+    "inicio": "2026-10-31T13:14:04.708Z",
+    "finalizada": false,
+    "id": "qui_000004",
+    "fecha": "2026-10-31T13:14:04.708Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "preguntasIds": [
+      "pre_test_op_1",
+      "pre_test_co_1",
+      "pre_test_vf_1",
+      "pre_gen_000131",
+      "pre_test_co_2",
+      "pre_test_op_4",
+      "pre_test_op_3",
+      "pre_test_vf_3",
+      "pre_test_op_2",
+      "pre_test_vf_2"
+    ],
+    "respuestas": {},
+    "inicio": "2026-10-31T20:12:07.934Z",
+    "finalizada": false,
+    "id": "qui_000005",
+    "fecha": "2026-10-31T20:12:07.934Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "preguntasIds": [
+      "pre_test_vf_3",
+      "pre_test_op_4",
+      "pre_test_vf_1",
+      "pre_test_op_3",
+      "pre_test_op_2",
+      "pre_test_co_1",
+      "pre_test_vf_2",
+      "pre_test_op_1",
+      "pre_test_co_3",
+      "pre_test_co_2"
+    ],
+    "respuestas": {
+      "pre_test_vf_3": {
+        "respuesta": "test",
+        "correcto": false,
+        "fecha": "2026-10-31T20:16:01.043Z"
+      }
+    },
+    "inicio": "2026-10-31T20:16:01.036Z",
+    "finalizada": false,
+    "id": "qui_000006",
+    "fecha": "2026-10-31T20:16:01.036Z"
+  }
+]

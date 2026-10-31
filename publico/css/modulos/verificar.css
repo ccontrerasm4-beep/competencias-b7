@@ -1,0 +1,113 @@
+/* Módulo Verificación de Certificados — Estilos */
+
+.verificar-cabecera {
+  margin-bottom: var(--espacio-xl);
+  text-align: center;
+}
+
+.verificar-cabecera h1 {
+  font-size: var(--tamano-2xl);
+  color: var(--color-primario);
+  margin-bottom: var(--espacio-xs);
+}
+
+.verificar-cabecera p {
+  color: var(--color-texto-suave);
+  font-size: var(--tamano-s);
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.verificar-formulario-tarjeta {
+  max-width: 580px;
+  margin: 0 auto var(--espacio-2xl) auto;
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-xl);
+  box-shadow: var(--sombra-1);
+}
+
+.verificar-input-grupo {
+  display: flex;
+  gap: var(--espacio-s);
+  margin-top: var(--espacio-s);
+}
+
+@media (max-width: 480px) {
+  .verificar-input-grupo {
+    flex-direction: column;
+  }
+}
+
+.verificar-resultado {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+/* Tarjeta de Certificado Válido */
+.certificado-valido-tarjeta {
+  background-color: var(--color-superficie);
+  border: 2px solid var(--color-exito);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-xl);
+  box-shadow: var(--sombra-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+}
+
+.certificado-valido__cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: var(--espacio-m);
+  flex-wrap: wrap;
+  gap: var(--espacio-s);
+}
+
+.certificado-valido__sello {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  color: var(--color-exito);
+  font-weight: var(--peso-negrita);
+  font-size: var(--tamano-s);
+}
+
+.certificado-valido__codigo {
+  font-family: monospace;
+  font-size: var(--tamano-s);
+  background-color: var(--color-fondo);
+  padding: 4px 8px;
+  border-radius: var(--radio-s);
+  border: 1px solid var(--color-borde);
+}
+
+.certificado-valido__campo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.certificado-valido__campo-etiqueta {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: var(--peso-seminegrita);
+}
+
+.certificado-valido__campo-valor {
+  font-size: var(--tamano-m);
+  color: var(--color-texto);
+  margin: 0;
+}
+
+.certificado-valido__campo-valor--nombre {
+  font-size: var(--tamano-xl);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+}
+

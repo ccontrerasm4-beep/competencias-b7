@@ -1,0 +1,2547 @@
+[
+  {
+    "id": "pre_test_op_1",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "Pregunta de opción 1",
+    "opciones": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta de la 1 es Opción B",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_op_2",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "Pregunta de opción 2",
+    "opciones": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta de la 2 es Opción B",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_op_3",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "Pregunta de opción 3",
+    "opciones": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta de la 3 es Opción B",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_op_4",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "Pregunta de opción 4",
+    "opciones": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta de la 4 es Opción B",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_vf_1",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "Afirmación verdadera 1",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "Es verdadera según el contenido 1",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_vf_2",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "Afirmación verdadera 2",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "Es verdadera según el contenido 2",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_vf_3",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "Afirmación verdadera 3",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "Es verdadera según el contenido 3",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_co_1",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "El concepto clave 1 es ____.",
+    "opciones": [],
+    "correcta": "Producción",
+    "retroalimentacion": "El término esperado es Producción",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_co_2",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "El concepto clave 2 es ____.",
+    "opciones": [],
+    "correcta": "Producción",
+    "retroalimentacion": "El término esperado es Producción",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_test_co_3",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "El concepto clave 3 es ____.",
+    "opciones": [],
+    "correcta": "Producción",
+    "retroalimentacion": "El término esperado es Producción",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En el emprendimiento de bolos, se destinan USD 5 a publicidad y USD 55 a una congeladora. Al analizar el propósito y la duración de ambos desembolsos, ¿cuál es la clasificación correcta?",
+    "opciones": [
+      "Ambos desembolsos son costos directos porque se consumen plenamente en la elaboración de los bolos del día.",
+      "Los USD 5 corresponden a un gasto operativo de comercialización y los USD 55 a una inversión en un equipo duradero.",
+      "Los USD 55 representan una pérdida del período y los USD 5 constituyen un ahorro reservado para el futuro.",
+      "Los USD 5 son una inversión en activos y los USD 55 son un costo directo consumido en la jornada."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La publicidad es un gasto operativo que apoya la comercialización, mientras que la congeladora es una inversión en un bien duradero que beneficia futuros períodos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000001",
+    "fecha": "2026-10-31T01:30:46.456Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "vf",
+    "enunciado": "Si un emprendedor adquiere una congeladora de USD 55 para conservar bolos durante futuras jornadas, registrar este desembolso como una pérdida económica del día constituye un error de análisis.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "Interpretar la compra de un equipo duradero como una pérdida es un error frecuente, ya que se trata de una inversión que brindará beneficios en futuros períodos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000002",
+    "fecha": "2026-10-31T01:30:47.797Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Al analizar la estructura de desembolsos, el pago de USD 5 destinado a dar a conocer los bolos se clasifica específicamente como un ____ operativo.",
+    "opciones": [],
+    "correcta": "gasto",
+    "retroalimentacion": "Los desembolsos que apoyan la comercialización, como la publicidad, corresponden a la categoría de gastos operativos y se separan de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000003",
+    "fecha": "2026-10-31T01:30:50.146Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Un emprendedor vendió 60 bolos a USD 1,25 (USD 75 de ingresos), con costos directos de USD 45 y USD 5 de publicidad. Si afirma que le quedan disponibles USD 30 tras considerar todos los desembolsos operativos del día, ¿qué error de análisis cometió?",
+    "opciones": [
+      "Confundió el margen sobre producción de USD 30 con el resultado final, omitiendo deducir el gasto de publicidad de USD 5.",
+      "Olvidó restar los USD 55 de la congeladora tratándola como un insumo consumido en ese único día.",
+      "Clasificó la venta total de USD 75 como un ahorro acumulado en lugar de registrarla como un ingreso.",
+      "Sumó el costo directo de ingredientes y envases en lugar de descontarlo del ingreso obtenido."
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Los USD 30 corresponden únicamente al margen sobre producción (75 - 45); para obtener la diferencia simplificada se debía deducir el gasto de publicidad de USD 5, quedando USD 25.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000004",
+    "fecha": "2026-10-31T01:30:51.122Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Un estudiante sostiene que adquirir una máquina para el negocio debe contabilizarse exactamente igual que comprar ingredientes de bolos consumidos en el día. Al analizar esta afirmación, ¿por qué es conceptualmente errónea?",
+    "opciones": [
+      "Porque la máquina constituye un alquiler temporal que solo apoya la venta de una jornada.",
+      "Porque la máquina es un equipo duradero que beneficia futuros períodos y no un insumo que se consume en un único día.",
+      "Porque cualquier salida de dinero destinada a adquirir herramientas se clasifica como costo directo de envases.",
+      "Porque los ingredientes representan una inversión a largo plazo que genera beneficios en múltiples ejercicios."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Es un error frecuente tratar la compra de maquinaria duradera como un insumo consumido en un único día, ya que su beneficio se extiende a futuros períodos como una inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000005",
+    "fecha": "2026-10-31T01:30:54.311Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En un emprendimiento de bolos se registran USD 5 destinados a publicidad y USD 55 para la compra de una congeladora. Al analizar el propósito y la duración de estos desembolsos, ¿cuál es la clasificación correspondiente para cada uno?",
+    "opciones": [
+      "La publicidad es un costo directo y la congeladora es un gasto operativo.",
+      "La publicidad es un gasto operativo y la congeladora es una inversión.",
+      "La publicidad es una inversión y la congeladora es una pérdida económica.",
+      "La publicidad es un ahorro y la congeladora es un costo de producción."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La publicidad apoya la comercialización constituyendo un gasto operativo, mientras que la congeladora es un equipo duradero que beneficiará futuros períodos, por lo que constituye una inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000006",
+    "fecha": "2026-10-31T01:33:49.814Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "vf",
+    "enunciado": "Si el emprendimiento adquiere una congeladora para conservar productos durante futuras jornadas, este desembolso debe analizarse como un insumo consumido en un único día que genera una pérdida.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Adquirir maquinaria duradera no es un insumo de un único día ni una pérdida, sino una inversión orientada a brindar beneficios en períodos futuros.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000007",
+    "fecha": "2026-10-31T01:33:49.863Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En un emprendimiento de bolos se registran USD 5 destinados a publicidad y USD 55 para la compra de una congeladora. Al analizar el propósito y la duración de estos desembolsos, ¿cuál es la clasificación correspondiente para cada uno?",
+    "opciones": [
+      "La publicidad es un costo directo y la congeladora es un gasto operativo.",
+      "La publicidad es un gasto operativo y la congeladora es una inversión.",
+      "La publicidad es una inversión y la congeladora es una pérdida económica.",
+      "La publicidad es un ahorro y la congeladora es un costo de producción."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La publicidad apoya la comercialización constituyendo un gasto operativo, mientras que la congeladora es un equipo duradero que beneficiará futuros períodos, por lo que constituye una inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000008",
+    "fecha": "2026-10-31T01:33:49.909Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En un emprendimiento de bolos se registran USD 5 destinados a publicidad y USD 55 para la compra de una congeladora. Al analizar el propósito y la duración de estos desembolsos, ¿cuál es la clasificación correspondiente para cada uno?",
+    "opciones": [
+      "La publicidad es un costo directo y la congeladora es un gasto operativo.",
+      "La publicidad es un gasto operativo y la congeladora es una inversión.",
+      "La publicidad es una inversión y la congeladora es una pérdida económica.",
+      "La publicidad es un ahorro y la congeladora es un costo de producción."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La publicidad apoya la comercialización constituyendo un gasto operativo, mientras que la congeladora es un equipo duradero que beneficiará futuros períodos, por lo que constituye una inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000009",
+    "fecha": "2026-10-31T01:33:49.948Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En un emprendimiento de bolos se registran USD 5 destinados a publicidad y USD 55 para la compra de una congeladora. Al analizar el propósito y la duración de estos desembolsos, ¿cuál es la clasificación correspondiente para cada uno?",
+    "opciones": [
+      "La publicidad es un costo directo y la congeladora es un gasto operativo.",
+      "La publicidad es un gasto operativo y la congeladora es una inversión.",
+      "La publicidad es una inversión y la congeladora es una pérdida económica.",
+      "La publicidad es un ahorro y la congeladora es un costo de producción."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La publicidad apoya la comercialización constituyendo un gasto operativo, mientras que la congeladora es un equipo duradero que beneficiará futuros períodos, por lo que constituye una inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000010",
+    "fecha": "2026-10-31T01:33:49.984Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En el emprendimiento de bolos, tras vender 60 unidades a USD 1,25 y restar los costos directos (USD 45) y el gasto de publicidad (USD 5), se obtiene una diferencia simplificada de USD 25. Si adicionalmente se adquiere una congeladora por USD 55, ¿cómo debe analizarse financieramente este desembolso de USD 55?",
+    "opciones": [
+      "Como un costo directo de producción que vuelve negativo el margen del día.",
+      "Como una inversión en un equipo duradero que beneficiará futuras jornadas.",
+      "Como un gasto operativo de comercialización similar al pago de publicidad.",
+      "Como una pérdida de capital consumida íntegramente en esa única jornada."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La congeladora es una inversión porque consiste en la adquisición de un bien o equipo duradero con utilidad para futuros períodos. No representa un costo directo consumido en el día ni un gasto operativo de comercialización.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000011",
+    "fecha": "2026-10-31T01:33:50.028Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Al analizar las cuentas del negocio de bolos, se determina un margen sobre producción de USD 30; tras restar el gasto operativo de publicidad de USD 5, la diferencia simplificada resultante es de USD ____.",
+    "opciones": [],
+    "correcta": "25",
+    "retroalimentacion": "Al deducir el gasto de publicidad de USD 5 del margen sobre producción de USD 30 (30 - 5), se obtiene una diferencia simplificada de USD 25.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000012",
+    "fecha": "2026-10-31T01:33:50.074Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Un emprendedor sostiene que haber comprado una máquina para su negocio fue perjudicial porque significó una pérdida de dinero en esa jornada. ¿Qué error de análisis financiero está cometiendo?",
+    "opciones": [
+      "Confundir un ingreso por venta con una reserva de ahorro.",
+      "Interpretar la adquisición de equipo como una pérdida en lugar de una inversión.",
+      "Tratar el gasto operativo de publicidad como un costo directo.",
+      "Calcular los envases e ingredientes como desembolsos de utilidad futura."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El emprendedor comete el error de ver la compra de equipo como una pérdida, pasando por alto que se trata de una inversión destinada a brindar beneficios económicos en períodos futuros.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000013",
+    "fecha": "2026-10-31T01:33:50.113Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En el emprendimiento de bolos, tras vender 60 unidades a USD 1,25 y restar los costos directos (USD 45) y el gasto de publicidad (USD 5), se obtiene una diferencia simplificada de USD 25. Si adicionalmente se adquiere una congeladora por USD 55, ¿cómo debe analizarse financieramente este desembolso de USD 55?",
+    "opciones": [
+      "Como un costo directo de producción que vuelve negativo el margen del día.",
+      "Como una inversión en un equipo duradero que beneficiará futuras jornadas.",
+      "Como un gasto operativo de comercialización similar al pago de publicidad.",
+      "Como una pérdida de capital consumida íntegramente en esa única jornada."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La congeladora es una inversión porque consiste en la adquisición de un bien o equipo duradero con utilidad para futuros períodos. No representa un costo directo consumido en el día ni un gasto operativo de comercialización.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000014",
+    "fecha": "2026-10-31T01:33:50.164Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En el emprendimiento de bolos, tras vender 60 unidades a USD 1,25 y restar los costos directos (USD 45) y el gasto de publicidad (USD 5), se obtiene una diferencia simplificada de USD 25. Si adicionalmente se adquiere una congeladora por USD 55, ¿cómo debe analizarse financieramente este desembolso de USD 55?",
+    "opciones": [
+      "Como un costo directo de producción que vuelve negativo el margen del día.",
+      "Como una inversión en un equipo duradero que beneficiará futuras jornadas.",
+      "Como un gasto operativo de comercialización similar al pago de publicidad.",
+      "Como una pérdida de capital consumida íntegramente en esa única jornada."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La congeladora es una inversión porque consiste en la adquisición de un bien o equipo duradero con utilidad para futuros períodos. No representa un costo directo consumido en el día ni un gasto operativo de comercialización.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000015",
+    "fecha": "2026-10-31T01:33:50.241Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "En el emprendimiento de bolos, tras vender 60 unidades a USD 1,25 y restar los costos directos (USD 45) y el gasto de publicidad (USD 5), se obtiene una diferencia simplificada de USD 25. Si adicionalmente se adquiere una congeladora por USD 55, ¿cómo debe analizarse financieramente este desembolso de USD 55?",
+    "opciones": [
+      "Como un costo directo de producción que vuelve negativo el margen del día.",
+      "Como una inversión en un equipo duradero que beneficiará futuras jornadas.",
+      "Como un gasto operativo de comercialización similar al pago de publicidad.",
+      "Como una pérdida de capital consumida íntegramente en esa única jornada."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La congeladora es una inversión porque consiste en la adquisición de un bien o equipo duradero con utilidad para futuros períodos. No representa un costo directo consumido en el día ni un gasto operativo de comercialización.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000016",
+    "fecha": "2026-10-31T01:33:50.559Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "vf",
+    "enunciado": "Si un emprendedor compra una máquina duradera para facilitar sus procesos de trabajo, este desembolso debe analizarse como un insumo consumido en un único día.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Es falso porque considerar la maquinaria duradera como un insumo consumido en un solo día es un error frecuente. La compra de equipos duraderos constituye una inversión que beneficia a futuros períodos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000017",
+    "fecha": "2026-10-31T01:33:51.135Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "vf",
+    "enunciado": "Si un emprendedor compra una máquina duradera para facilitar sus procesos de trabajo, este desembolso debe analizarse como un insumo consumido en un único día.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Es falso porque considerar la maquinaria duradera como un insumo consumido en un solo día es un error frecuente. La compra de equipos duraderos constituye una inversión que beneficia a futuros períodos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000018",
+    "fecha": "2026-10-31T01:33:51.212Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "vf",
+    "enunciado": "Si un emprendedor compra una máquina duradera para facilitar sus procesos de trabajo, este desembolso debe analizarse como un insumo consumido en un único día.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Es falso porque considerar la maquinaria duradera como un insumo consumido en un solo día es un error frecuente. La compra de equipos duraderos constituye una inversión que beneficia a futuros períodos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000019",
+    "fecha": "2026-10-31T01:33:51.249Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Al examinar las salidas de dinero de un negocio, ¿cuál de los siguientes desembolsos debe clasificarse específicamente como un gasto operativo?",
+    "opciones": [
+      "La compra de una congeladora para conservar productos en futuras jornadas.",
+      "El pago de publicidad para dar a conocer el producto a los clientes.",
+      "El desembolso en ingredientes y envases necesarios para la producción.",
+      "La reserva de una parte de los recursos monetarios en calidad de ahorro."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La publicidad es un gasto operativo porque apoya la comercialización del producto y se separa de los costos directos de producción. La congeladora es una inversión y los ingredientes son costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000020",
+    "fecha": "2026-10-31T01:33:51.294Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Al examinar las salidas de dinero de un negocio, ¿cuál de los siguientes desembolsos debe clasificarse específicamente como un gasto operativo?",
+    "opciones": [
+      "La compra de una congeladora para conservar productos en futuras jornadas.",
+      "El pago de publicidad para dar a conocer el producto a los clientes.",
+      "El desembolso en ingredientes y envases necesarios para la producción.",
+      "La reserva de una parte de los recursos monetarios en calidad de ahorro."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La publicidad es un gasto operativo porque apoya la comercialización del producto y se separa de los costos directos de producción. La congeladora es una inversión y los ingredientes son costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000021",
+    "fecha": "2026-10-31T01:33:51.332Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Al examinar las salidas de dinero de un negocio, ¿cuál de los siguientes desembolsos debe clasificarse específicamente como un gasto operativo?",
+    "opciones": [
+      "La compra de una congeladora para conservar productos en futuras jornadas.",
+      "El pago de publicidad para dar a conocer el producto a los clientes.",
+      "El desembolso en ingredientes y envases necesarios para la producción.",
+      "La reserva de una parte de los recursos monetarios en calidad de ahorro."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La publicidad es un gasto operativo porque apoya la comercialización del producto y se separa de los costos directos de producción. La congeladora es una inversión y los ingredientes son costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000022",
+    "fecha": "2026-10-31T01:33:51.368Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Al analizar las cuentas del negocio de bolos, se determina un margen sobre producción de USD 30; tras restar el gasto operativo de publicidad de USD 5, la diferencia simplificada resultante es de USD ____.",
+    "opciones": [],
+    "correcta": "25",
+    "retroalimentacion": "Al deducir el gasto de publicidad de USD 5 del margen sobre producción de USD 30 (30 - 5), se obtiene una diferencia simplificada de USD 25.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000023",
+    "fecha": "2026-10-31T01:33:51.413Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Al analizar las cuentas del negocio de bolos, se determina un margen sobre producción de USD 30; tras restar el gasto operativo de publicidad de USD 5, la diferencia simplificada resultante es de USD ____.",
+    "opciones": [],
+    "correcta": "25",
+    "retroalimentacion": "Al deducir el gasto de publicidad de USD 5 del margen sobre producción de USD 30 (30 - 5), se obtiene una diferencia simplificada de USD 25.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000024",
+    "fecha": "2026-10-31T01:33:51.468Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Al analizar las cuentas del negocio de bolos, se determina un margen sobre producción de USD 30; tras restar el gasto operativo de publicidad de USD 5, la diferencia simplificada resultante es de USD ____.",
+    "opciones": [],
+    "correcta": "25",
+    "retroalimentacion": "Al deducir el gasto de publicidad de USD 5 del margen sobre producción de USD 30 (30 - 5), se obtiene una diferencia simplificada de USD 25.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000025",
+    "fecha": "2026-10-31T01:33:51.550Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Un emprendedor sostiene que haber comprado una máquina para su negocio fue perjudicial porque significó una pérdida de dinero en esa jornada. ¿Qué error de análisis financiero está cometiendo?",
+    "opciones": [
+      "Confundir un ingreso por venta con una reserva de ahorro.",
+      "Interpretar la adquisición de equipo como una pérdida en lugar de una inversión.",
+      "Tratar el gasto operativo de publicidad como un costo directo.",
+      "Calcular los envases e ingredientes como desembolsos de utilidad futura."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El emprendedor comete el error de ver la compra de equipo como una pérdida, pasando por alto que se trata de una inversión destinada a brindar beneficios económicos en períodos futuros.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000026",
+    "fecha": "2026-10-31T01:33:51.700Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Un emprendedor sostiene que haber comprado una máquina para su negocio fue perjudicial porque significó una pérdida de dinero en esa jornada. ¿Qué error de análisis financiero está cometiendo?",
+    "opciones": [
+      "Confundir un ingreso por venta con una reserva de ahorro.",
+      "Interpretar la adquisición de equipo como una pérdida en lugar de una inversión.",
+      "Tratar el gasto operativo de publicidad como un costo directo.",
+      "Calcular los envases e ingredientes como desembolsos de utilidad futura."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El emprendedor comete el error de ver la compra de equipo como una pérdida, pasando por alto que se trata de una inversión destinada a brindar beneficios económicos en períodos futuros.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000027",
+    "fecha": "2026-10-31T01:33:51.748Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Un emprendedor sostiene que haber comprado una máquina para su negocio fue perjudicial porque significó una pérdida de dinero en esa jornada. ¿Qué error de análisis financiero está cometiendo?",
+    "opciones": [
+      "Confundir un ingreso por venta con una reserva de ahorro.",
+      "Interpretar la adquisición de equipo como una pérdida en lugar de una inversión.",
+      "Tratar el gasto operativo de publicidad como un costo directo.",
+      "Calcular los envases e ingredientes como desembolsos de utilidad futura."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El emprendedor comete el error de ver la compra de equipo como una pérdida, pasando por alto que se trata de una inversión destinada a brindar beneficios económicos en períodos futuros.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000028",
+    "fecha": "2026-10-31T01:33:51.811Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál es la diferencia fundamental entre un gasto y una inversión según el texto?",
+    "opciones": [
+      "El gasto apoya la comercialización mediante desembolsos operativos, mientras que la inversión adquiere bienes o equipos duraderos que benefician futuros períodos.",
+      "El gasto consiste en adquirir maquinaria duradera para el negocio, mientras que la inversión corresponde a los costos de ingredientes.",
+      "El gasto representa una reserva de dinero para el futuro, mientras que la inversión es el valor total de las ventas cobradas.",
+      "El gasto se utiliza exclusivamente para adquirir activos duraderos, mientras que la inversión se consume en una única jornada."
+    ],
+    "correcta": 0,
+    "retroalimentacion": "El gasto se refiere a desembolsos operativos que apoyan la comercialización, a diferencia de la inversión que se destina a bienes o equipos duraderos de beneficio futuro.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000029",
+    "fecha": "2026-10-31T01:35:12.031Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "La adquisición de un equipo para el negocio debe interpretarse como una pérdida en lugar de una inversión.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Es falso porque adquirir equipo duradero representa una inversión que beneficia futuros períodos y no debe considerarse una pérdida.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000030",
+    "fecha": "2026-10-31T01:35:12.967Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000031",
+    "fecha": "2026-10-31T01:36:29.373Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000032",
+    "fecha": "2026-10-31T01:36:30.974Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000033",
+    "fecha": "2026-10-31T01:36:32.822Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"EQUIPO\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"EQUIPO\" se define como: Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000034",
+    "fecha": "2026-10-31T01:36:34.351Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"MÁQUINA\" cumple con: Aparato usado para realizar o facilitar procesos de trabajo..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000035",
+    "fecha": "2026-10-31T01:36:35.246Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Pago por utilizar temporalmente un local u ot...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "ALQUILER",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"ALQUILER\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000036",
+    "fecha": "2026-10-31T01:36:36.685Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"PUBLICIDAD\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Acciones pagadas o recursos usados para dar a conocer un producto.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"PUBLICIDAD\" se define como: Acciones pagadas o recursos usados para dar a conocer un producto.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000037",
+    "fecha": "2026-10-31T01:36:39.311Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"AHORRO\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000038",
+    "fecha": "2026-10-31T01:36:41.024Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recurso controlado por el negocio que puede b...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "ACTIVO",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"ACTIVO\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000039",
+    "fecha": "2026-10-31T01:36:42.436Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"COMPRA\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Operación de adquirir un bien o servicio entregando una contraprestación.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"COMPRA\" se define como: Operación de adquirir un bien o servicio entregando una contraprestación.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000040",
+    "fecha": "2026-10-31T01:36:43.924Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"NEGOCIO\" cumple con: Actividad organizada para ofrecer productos o servicios a clientes..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000041",
+    "fecha": "2026-10-31T01:36:45.318Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Cambio que busca elevar la calidad o capacida...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "MEJORA",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"MEJORA\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000042",
+    "fecha": "2026-10-31T01:36:46.095Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000043",
+    "fecha": "2026-10-31T01:36:47.661Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000044",
+    "fecha": "2026-10-31T01:36:48.772Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000045",
+    "fecha": "2026-10-31T01:36:50.051Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "En un emprendimiento de bolos se venden 60 unidades a USD 1,25 cada una, con costos directos de USD 45 y un pago de USD 5 para dar a conocer el producto. ¿Cuál es el valor correspondiente al gasto operativo de comercialización?",
+    "opciones": [
+      "USD 45",
+      "USD 5",
+      "USD 30",
+      "USD 25"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El desembolso de USD 5 en publicidad apoya la comercialización y se clasifica como gasto operativo. Los USD 45 corresponden a los costos directos de producción.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000046",
+    "fecha": "2026-10-31T01:37:34.309Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "Si un negocio adquiere una máquina duradera para facilitar sus procesos durante varios períodos, es correcto registrar dicho desembolso como un insumo consumido en un único día.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Tratar la compra de maquinaria duradera como un insumo consumido en un único día es un error conceptual. Se trata de una inversión que beneficia a futuros períodos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000047",
+    "fecha": "2026-10-31T01:37:35.694Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "La adquisición de una congeladora por USD 55 para conservar productos durante futuras jornadas se clasifica financieramente como una ____.",
+    "opciones": [],
+    "correcta": "inversión",
+    "retroalimentacion": "La compra de bienes o equipos duraderos que benefician futuros períodos corresponde a una inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000048",
+    "fecha": "2026-10-31T01:37:36.589Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "A partir del ejemplo del negocio de bolos, con un ingreso total de USD 75 y costos directos de ingredientes y envases por USD 45, ¿cuál es el margen sobre producción?",
+    "opciones": [
+      "USD 20",
+      "USD 25",
+      "USD 30",
+      "USD 55"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "El margen sobre producción se calcula restando los costos directos del ingreso: 75 - 45 = USD 30.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000049",
+    "fecha": "2026-10-31T01:37:38.150Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "El pago por concepto de alquiler de un local comercial debe considerarse una inversión en equipo duradero.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "El alquiler es el pago por utilizar temporalmente un bien ajeno y constituye un gasto operativo, no una adquisición de equipo duradero.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000050",
+    "fecha": "2026-10-31T01:37:39.253Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "Al deducir el gasto de publicidad de USD 5 del margen sobre producción de USD 30, la diferencia simplificada que se obtiene es USD ____.",
+    "opciones": [],
+    "correcta": "25",
+    "retroalimentacion": "La diferencia simplificada resulta del cálculo: 30 - 5 = USD 25.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000051",
+    "fecha": "2026-10-31T01:37:40.419Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Un emprendedor cancela USD 5 por acciones pagadas para dar a conocer sus productos a los clientes. ¿Cómo debe clasificar este desembolso?",
+    "opciones": [
+      "Costo directo de ingredientes",
+      "Gasto de publicidad",
+      "Inversión en maquinaria",
+      "Reserva de ahorro"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Los recursos pagados para dar a conocer un producto corresponden al concepto de publicidad, el cual es un gasto operativo.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000052",
+    "fecha": "2026-10-31T01:37:41.534Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "Interpretar la adquisición de un equipo de trabajo como una pérdida para el negocio constituye un error financiero.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La adquisición de equipo duradero es una inversión orientada a brindar beneficios en el futuro, no una pérdida.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000053",
+    "fecha": "2026-10-31T01:37:42.932Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Si un negocio genera USD 75 por la venta de 60 bolos a USD 1,25 y el dueño decide guardar una parte de ese dinero para utilizarla más adelante, esa parte reservada constituye:",
+    "opciones": [
+      "Un gasto de comercialización",
+      "Un costo de envases",
+      "Un ahorro",
+      "Un alquiler"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "El ahorro es específicamente la parte del dinero que se reserva para utilizarla en el futuro, diferenciándose del ingreso total de la venta.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000054",
+    "fecha": "2026-10-31T01:37:44.100Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "La parte del dinero que un emprendedor reserva para utilizarla en el futuro se denomina ____.",
+    "opciones": [],
+    "correcta": "ahorro",
+    "retroalimentacion": "Según el glosario, el ahorro es la reserva de recursos económicos destinada para su uso en el futuro.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000055",
+    "fecha": "2026-10-31T01:37:45.350Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Una persona vende 60 bolos en una feria a un precio unitario de USD 1,25. ¿Cuál es el ingreso total obtenido por esta operación?",
+    "opciones": [
+      "USD 45",
+      "USD 55",
+      "USD 75",
+      "USD 30"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "El ingreso corresponde al producto de las unidades vendidas por su precio: 60 × 1,25 = USD 75.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000056",
+    "fecha": "2026-10-31T01:37:46.603Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "Toda salida de dinero de un negocio debe registrarse automáticamente como un costo directo de producción.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Existen desembolsos con otros propósitos, como los gastos operativos de comercialización o las inversiones en bienes duraderos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000057",
+    "fecha": "2026-10-31T01:37:47.774Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "En la preparación de bolos para la venta, se desembolsan USD 38 en ingredientes y USD 7 en envases. Estos rubros corresponden a:",
+    "opciones": [
+      "Costos directos de producción",
+      "Gastos operativos de comercialización",
+      "Inversión en equipos duraderos",
+      "Mejoras de capital futuro"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Los ingredientes y envases requeridos directamente para elaborar el producto representan costos directos de producción.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000058",
+    "fecha": "2026-10-31T01:37:49.046Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "El desembolso que realiza un emprendedor por utilizar de forma temporal un local ajeno para su negocio se denomina ____.",
+    "opciones": [],
+    "correcta": "alquiler",
+    "retroalimentacion": "El alquiler es el pago por utilizar temporalmente un local u otro bien ajeno dentro de las operaciones del negocio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000059",
+    "fecha": "2026-10-31T01:37:50.302Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Un emprendimiento adquiere un aparato duradero para realizar y facilitar sus procesos de trabajo durante varios períodos futuros. Este recurso y la acción realizada se identifican como:",
+    "opciones": [
+      "Un gasto consumible en publicidad",
+      "Una máquina adquirida como inversión",
+      "Un costo directo registrado como pérdida",
+      "Un ahorro registrado como alquiler"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Un aparato usado para facilitar procesos de trabajo es una máquina, y su adquisición para beneficio de futuros períodos se clasifica como una inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000060",
+    "fecha": "2026-10-31T01:37:51.733Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000061",
+    "fecha": "2026-10-31T01:38:29.581Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000062",
+    "fecha": "2026-10-31T01:38:29.615Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000063",
+    "fecha": "2026-10-31T01:38:29.649Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"EQUIPO\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"EQUIPO\" se define como: Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000064",
+    "fecha": "2026-10-31T01:38:29.683Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"MÁQUINA\" cumple con: Aparato usado para realizar o facilitar procesos de trabajo..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000065",
+    "fecha": "2026-10-31T01:38:29.718Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Pago por utilizar temporalmente un local u ot...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "ALQUILER",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"ALQUILER\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000066",
+    "fecha": "2026-10-31T01:38:29.748Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"PUBLICIDAD\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Acciones pagadas o recursos usados para dar a conocer un producto.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"PUBLICIDAD\" se define como: Acciones pagadas o recursos usados para dar a conocer un producto.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000067",
+    "fecha": "2026-10-31T01:38:29.775Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"AHORRO\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000068",
+    "fecha": "2026-10-31T01:38:29.800Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recurso controlado por el negocio que puede b...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "ACTIVO",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"ACTIVO\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000069",
+    "fecha": "2026-10-31T01:38:29.827Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"COMPRA\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Operación de adquirir un bien o servicio entregando una contraprestación.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"COMPRA\" se define como: Operación de adquirir un bien o servicio entregando una contraprestación.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000070",
+    "fecha": "2026-10-31T01:38:29.865Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"NEGOCIO\" cumple con: Actividad organizada para ofrecer productos o servicios a clientes..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000071",
+    "fecha": "2026-10-31T01:38:29.899Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Cambio que busca elevar la calidad o capacida...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "MEJORA",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"MEJORA\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000072",
+    "fecha": "2026-10-31T01:38:29.938Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000073",
+    "fecha": "2026-10-31T01:38:29.974Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000074",
+    "fecha": "2026-10-31T01:38:30.009Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000075",
+    "fecha": "2026-10-31T01:38:30.047Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000076",
+    "fecha": "2026-10-31T01:38:57.900Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000077",
+    "fecha": "2026-10-31T01:38:57.933Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000078",
+    "fecha": "2026-10-31T01:38:57.968Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"EQUIPO\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"EQUIPO\" se define como: Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000079",
+    "fecha": "2026-10-31T01:38:58.001Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"MÁQUINA\" cumple con: Aparato usado para realizar o facilitar procesos de trabajo..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000080",
+    "fecha": "2026-10-31T01:38:58.033Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000081",
+    "fecha": "2026-10-31T01:39:11.695Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000082",
+    "fecha": "2026-10-31T01:39:11.728Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000083",
+    "fecha": "2026-10-31T01:39:11.763Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"EQUIPO\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"EQUIPO\" se define como: Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000084",
+    "fecha": "2026-10-31T01:39:11.796Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"MÁQUINA\" cumple con: Aparato usado para realizar o facilitar procesos de trabajo..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000085",
+    "fecha": "2026-10-31T01:39:11.831Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Pago por utilizar temporalmente un local u ot...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "ALQUILER",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"ALQUILER\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000086",
+    "fecha": "2026-10-31T01:39:11.865Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"PUBLICIDAD\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Acciones pagadas o recursos usados para dar a conocer un producto.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"PUBLICIDAD\" se define como: Acciones pagadas o recursos usados para dar a conocer un producto.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000087",
+    "fecha": "2026-10-31T01:39:11.901Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"AHORRO\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000088",
+    "fecha": "2026-10-31T01:39:11.935Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recurso controlado por el negocio que puede b...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "ACTIVO",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"ACTIVO\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000089",
+    "fecha": "2026-10-31T01:39:11.969Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"COMPRA\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Operación de adquirir un bien o servicio entregando una contraprestación.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"COMPRA\" se define como: Operación de adquirir un bien o servicio entregando una contraprestación.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000090",
+    "fecha": "2026-10-31T01:39:12.002Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"NEGOCIO\" cumple con: Actividad organizada para ofrecer productos o servicios a clientes..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000091",
+    "fecha": "2026-10-31T01:39:12.040Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Cambio que busca elevar la calidad o capacida...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "MEJORA",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"MEJORA\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000092",
+    "fecha": "2026-10-31T01:39:12.074Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000093",
+    "fecha": "2026-10-31T01:39:12.104Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000094",
+    "fecha": "2026-10-31T01:39:12.131Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000095",
+    "fecha": "2026-10-31T01:39:12.156Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000096",
+    "fecha": "2026-10-31T01:39:23.612Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000097",
+    "fecha": "2026-10-31T01:39:23.647Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000098",
+    "fecha": "2026-10-31T01:39:23.682Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"EQUIPO\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"EQUIPO\" se define como: Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000099",
+    "fecha": "2026-10-31T01:39:23.721Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"MÁQUINA\" cumple con: Aparato usado para realizar o facilitar procesos de trabajo..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000100",
+    "fecha": "2026-10-31T01:39:23.760Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000101",
+    "fecha": "2026-10-31T01:39:39.030Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000102",
+    "fecha": "2026-10-31T01:39:39.069Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000103",
+    "fecha": "2026-10-31T01:39:39.109Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"EQUIPO\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"EQUIPO\" se define como: Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000104",
+    "fecha": "2026-10-31T01:39:39.151Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"MÁQUINA\" cumple con: Aparato usado para realizar o facilitar procesos de trabajo..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000105",
+    "fecha": "2026-10-31T01:39:39.196Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Pago por utilizar temporalmente un local u ot...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "ALQUILER",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"ALQUILER\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000106",
+    "fecha": "2026-10-31T01:39:39.235Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"PUBLICIDAD\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Acciones pagadas o recursos usados para dar a conocer un producto.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"PUBLICIDAD\" se define como: Acciones pagadas o recursos usados para dar a conocer un producto.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000107",
+    "fecha": "2026-10-31T01:39:39.282Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"AHORRO\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000108",
+    "fecha": "2026-10-31T01:39:39.317Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recurso controlado por el negocio que puede b...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "ACTIVO",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"ACTIVO\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000109",
+    "fecha": "2026-10-31T01:39:39.361Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"COMPRA\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Operación de adquirir un bien o servicio entregando una contraprestación.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"COMPRA\" se define como: Operación de adquirir un bien o servicio entregando una contraprestación.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000110",
+    "fecha": "2026-10-31T01:39:39.387Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"NEGOCIO\" cumple con: Actividad organizada para ofrecer productos o servicios a clientes..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000111",
+    "fecha": "2026-10-31T01:39:39.414Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Cambio que busca elevar la calidad o capacida...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "MEJORA",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"MEJORA\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000112",
+    "fecha": "2026-10-31T01:39:39.446Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000113",
+    "fecha": "2026-10-31T01:39:39.475Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000114",
+    "fecha": "2026-10-31T01:39:39.499Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000115",
+    "fecha": "2026-10-31T01:39:39.522Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"GASTOS\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"GASTOS\" se define como: Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000116",
+    "fecha": "2026-10-31T01:39:46.094Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"INVERSIÓN\" no guarda ninguna relación con los objetivos de aprendizaje.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "La respuesta correcta es Falso debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000117",
+    "fecha": "2026-10-31T01:39:46.133Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "completar",
+    "enunciado": "En Gastos e inversión, la noción referida a \"Recursos de dinero o bienes disponibles para ...\" corresponde a ____.",
+    "opciones": [],
+    "correcta": "CAPITAL",
+    "retroalimentacion": "El término correcto para completar la afirmación es \"CAPITAL\".",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000118",
+    "fecha": "2026-10-31T01:39:46.168Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor a \"EQUIPO\" en el contexto de Gastos e inversión?",
+    "opciones": [
+      "Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+      "Es un proceso secundario no relacionado",
+      "Corresponde a una definición obsoleta",
+      "Se aplica únicamente en casos aislados"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Es correcta porque \"EQUIPO\" se define como: Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000119",
+    "fecha": "2026-10-31T01:39:46.202Z"
+  },
+  {
+    "temaId": "tem_000002",
+    "nivel": 5,
+    "tipo": "vf",
+    "enunciado": "En el estudio de Gastos e inversión, \"MÁQUINA\" cumple con: Aparato usado para realizar o facilitar procesos de trabajo..",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La respuesta correcta es Verdadero debido a los fundamentos conceptuales de Gastos e inversión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000120",
+    "fecha": "2026-10-31T01:39:46.240Z"
+  },
+  {
+    "id": "pre_gen_000131",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Qué representa el Ingreso Total en un emprendimiento?",
+    "opciones": [
+      "La cantidad de dinero gastada en materias primas",
+      "Todo el dinero recibido por la venta de productos o servicios",
+      "La ganancia neta después de pagar sueldos e impuestos",
+      "El préstamo inicial solicitado para arrancar el negocio"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El Ingreso Total es el valor total recibido por las ventas (Precio × Cantidad).",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000132",
+    "temaId": "tem_000001",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "El costo unitario se calcula dividiendo el costo total del lote para la cantidad producida.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Verdadero. Costo Unitario = Costo Total ÷ Unidades Producidas.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000133",
+    "temaId": "tem_000001",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Si Fruta Fría vende 50 bolos a $1,00 y su costo total fue de $25,00, ¿cuál es su margen de ganancia?",
+    "opciones": [
+      "$15,00",
+      "$25,00",
+      "$50,00",
+      "$75,00"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Margen = $50,00 (Ventas) − $25,00 (Costos) = $25,00.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000134",
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "La diferencia entre los ingresos por ventas y los costos de producción se denomina ______ de ganancia.",
+    "opciones": null,
+    "correcta": "margen",
+    "retroalimentacion": "Se denomina margen o margen de ganancia.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000135",
+    "temaId": "tem_000001",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Por qué vender más unidades a veces puede generar menores ganancias?",
+    "opciones": [
+      "Porque los clientes siempre pagan con retraso",
+      "Si se reduce demasiado el precio de venta o aumentan los costos de compra apresurada",
+      "Porque los impuestos siempre absorben el 100% de los ingresos",
+      "Porque el volumen de ventas nunca influye en los resultados"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Si el margen unitario cae demasiado, vender más volumen puede dejar menos dinero neto.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000136",
+    "temaId": "tem_000003",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Qué indica el Punto de Equilibrio en un emprendimiento?",
+    "opciones": [
+      "El momento en que los ingresos cubren exactamente todos los costos y gastos (ni se gana ni se pierde)",
+      "El punto máximo de ganancia posible en el año",
+      "El porcentaje de descuento que se ofrece en días festivos",
+      "La cantidad de dinero que se debe al banco"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "En el punto de equilibrio la utilidad es exactamente cero.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000137",
+    "temaId": "tem_000003",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "Los costos fijos se deben pagar aunque la empresa no logre vender ninguna unidad en el mes.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Verdadero: arriendos o permisos se pagan sin importar el volumen de venta.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000138",
+    "temaId": "tem_000003",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Si los costos fijos son $100 y el margen de contribución unitario es $1,00 por producto, ¿cuántas unidades representan el punto de equilibrio?",
+    "opciones": [
+      "50 unidades",
+      "100 unidades",
+      "200 unidades",
+      "10 unidades"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Punto de equilibrio = Costos Fijos ($100) ÷ Margen Unitario ($1,00) = 100 unidades.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000139",
+    "temaId": "tem_000003",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Los costos que no varían con el nivel de producción se conocen como costos ______.",
+    "opciones": null,
+    "correcta": "fijos",
+    "retroalimentacion": "Se denominan costos fijos.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000140",
+    "temaId": "tem_000003",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Qué estrategia reduce más rápidamente el punto de equilibrio de un nuevo producto?",
+    "opciones": [
+      "Aumentar los gastos de oficina",
+      "Negociar mejores precios de insumos para ampliar el margen unitario",
+      "Duplicar los costos fijos de publicidad",
+      "Bajar los precios por debajo del costo de fabricación"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Aumentar el margen unitario reduce la cantidad de unidades necesarias para cubrir los costos fijos.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000141",
+    "temaId": "tem_000004",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál es la ecuación contable básica fundamental?",
+    "opciones": [
+      "Activo = Pasivo − Patrimonio",
+      "Activo = Pasivo + Patrimonio",
+      "Patrimonio = Activo + Pasivo",
+      "Pasivo = Activo + Costos"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La ecuación contable básica es Activo = Pasivo + Patrimonio.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000142",
+    "temaId": "tem_000004",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "El principio de partida doble establece que no hay deudor sin acreedor.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Verdadero: todo ingreso o recurso tiene un origen y una contraparte contable.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000143",
+    "temaId": "tem_000004",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Si un emprendedor aporta $80 propios y recibe un préstamo de $20, ¿cuál es el total de su Activo?",
+    "opciones": [
+      "$60",
+      "$80",
+      "$100",
+      "$20"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "Activo = $80 (Patrimonio) + $20 (Pasivo) = $100 en recursos.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000144",
+    "temaId": "tem_000004",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Las obligaciones o deudas que tiene el emprendimiento con terceras personas se denominan ______.",
+    "opciones": null,
+    "correcta": "pasivo",
+    "retroalimentacion": "Se denominan pasivo o pasivos.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000145",
+    "temaId": "tem_000004",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "Al pagar una deuda con dinero en efectivo, ¿cómo se modifica la ecuación contable?",
+    "opciones": [
+      "Aumenta el activo y disminuye el pasivo",
+      "Disminuye el activo (caja) y disminuye el pasivo (deuda) en la misma proporción",
+      "Aumenta el patrimonio y no cambia el pasivo",
+      "Se duplica el pasivo total"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Baja el dinero en caja (Activo) y se reduce la obligación adeudada (Pasivo).",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000146",
+    "temaId": "tem_000005",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Para qué sirve el arqueo de caja al final de cada jornada?",
+    "opciones": [
+      "Para gastar el excedente en compras personales",
+      "Para verificar que el dinero físico en mano coincida con los registros anotados",
+      "Para eliminar los recibos de compra de insumos",
+      "Para calcular el precio del próximo año"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El arqueo comprueba que el saldo teórico coincida con el dinero real existente.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000147",
+    "temaId": "tem_000005",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "El dinero de la caja del negocio debe mantenerse separado de los gastos personales de los fundadores.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Verdadero: mezclar fondos personales con el negocio es una de las principales causas de quiebra.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000148",
+    "temaId": "tem_000005",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Si inicias el día con $10, vendes $35 y compras suministros por $8, ¿cuánto debe haber en caja?",
+    "opciones": [
+      "$37",
+      "$45",
+      "$27",
+      "$35"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "$10 + $35 − $8 = $37 en caja.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000149",
+    "temaId": "tem_000005",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Toda salida de dinero de la caja del negocio se denomina ______.",
+    "opciones": null,
+    "correcta": "egreso",
+    "retroalimentacion": "Se denomina egreso o salida.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000150",
+    "temaId": "tem_000005",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Qué acción se debe tomar si en el arqueo de caja faltan $3,00 de forma repetida?",
+    "opciones": [
+      "Ignorar la diferencia por ser pequeña",
+      "Revisar los recibos no anotados y establecer un protocolo estricto de registro al instante",
+      "Aumentar el precio de venta un 50%",
+      "Cerrar el emprendimiento de inmediato"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Identificar la causa del descuadre y registrar cada transacción al momento evita fugas de capital.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000151",
+    "temaId": "tem_000006",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Qué es una Propuesta de Valor?",
+    "opciones": [
+      "El precio más bajo que se puede cobrar por un producto",
+      "El beneficio único y la solución que tu producto ofrece al cliente frente a la competencia",
+      "La lista de materias primas utilizadas en la receta",
+      "El eslogan publicitario en redes sociales"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La propuesta de valor explica por qué el cliente te elegirá a ti por encima de otras opciones.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000152",
+    "temaId": "tem_000006",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "Para emprender con éxito, es más importante enamorarse del problema del cliente que de la idea propia.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Verdadero: entender las necesidades reales del usuario garantiza que el producto tenga demanda.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000153",
+    "temaId": "tem_000006",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Fruta Fría descubrió que los estudiantes querían refrescarse con fruta natural sin químicos. Esto representa:",
+    "opciones": [
+      "Un costo fijo imprevisto",
+      "Una necesidad insatisfecha del mercado",
+      "Un pasivo a largo plazo",
+      "Una pérdida de capital"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Es una necesidad real del consumidor que abre una oportunidad de negocio.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000154",
+    "temaId": "tem_000006",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "El grupo de personas con características comunes a quienes va dirigido tu producto se denomina cliente ______.",
+    "opciones": null,
+    "correcta": "ideal",
+    "retroalimentacion": "Se denomina cliente ideal o cliente objetivo.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000155",
+    "temaId": "tem_000006",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál es la mejor forma de validar si existe una necesidad real antes de invertir dinero?",
+    "opciones": [
+      "Fabricar 500 unidades y esperar que la gente las compre",
+      "Entrevistar a potenciales clientes y observar sus hábitos cotidianos",
+      "Alquilar un local comercial por un año",
+      "Copiar el producto de otra ciudad sin adaptarlo"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Hablar con el cliente y observar su comportamiento valida la demanda con mínimo riesgo.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000156",
+    "temaId": "tem_000007",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cuál es el objetivo principal de un Producto Mínimo Viable (PMV)?",
+    "opciones": [
+      "Tener un producto perfecto y lujoso desde el primer día",
+      "Aprender rápido del cliente con la versión más simple y económica posible",
+      "Gastar todos los ahorros antes de inaugurar",
+      "Evitar que la gente pruebe la idea"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El PMV permite validar hipótesis y aprender del mercado con mínima inversión.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000157",
+    "temaId": "tem_000007",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "El ciclo del PMV es: Crear, Medir y Aprender.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "Verdadero: es el ciclo central del método Lean Startup.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000158",
+    "temaId": "tem_000007",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Preparar 15 bolos de prueba para obtener opiniones de profesores y compañeros es un ejemplo de:",
+    "opciones": [
+      "Liquidación por quiebra",
+      "Prototipo o Producto Mínimo Viable",
+      "Gasto innecesario de capital",
+      "Costo administrativo fijo"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "Es un prototipo funcional para recibir feedback antes de la producción masiva.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000159",
+    "temaId": "tem_000007",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "La retroalimentación y opiniones que recibes de tus primeros usuarios se denomina ______.",
+    "opciones": null,
+    "correcta": "feedback",
+    "retroalimentacion": "Se denomina feedback o retroalimentación.",
+    "origen": "manual",
+    "estado": "aprobado"
+  },
+  {
+    "id": "pre_gen_000160",
+    "temaId": "tem_000007",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "Si en la prueba de tu PMV varios clientes dicen que el sabor es muy dulce, ¿qué debes hacer?",
+    "opciones": [
+      "Ignorarlos porque tú eres el creador de la receta",
+      "Ajustar la cantidad de azúcar según sus sugerencias y volver a probar",
+      "Dejar de vender inmediatamente y abandonar el proyecto",
+      "Subir el precio para que no se quejen"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El valor del PMV es iterar y perfeccionar la propuesta con la voz de los clientes reales.",
+    "origen": "manual",
+    "estado": "aprobado"
+  }
+]

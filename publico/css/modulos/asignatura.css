@@ -1,0 +1,483 @@
+/* Estilos de la vista de una asignatura específica */
+.asignatura-detalle-cabecera {
+  margin-bottom: var(--espacio-l);
+}
+
+.asignatura-detalle-info {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-l);
+  margin-bottom: var(--espacio-xl);
+  box-shadow: var(--sombra-1);
+}
+
+.asignatura-detalle-portada {
+  width: 100%;
+  max-height: 240px;
+  border-radius: var(--radio-m);
+  overflow: hidden;
+  margin-bottom: var(--espacio-l);
+  border: 1px solid var(--color-borde);
+  background-color: var(--color-fondo);
+}
+
+.asignatura-detalle-portada__img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.unidades-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+}
+
+.unidad-bloque {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  overflow: hidden;
+  box-shadow: var(--sombra-1);
+}
+
+.unidad-bloque__cabecera {
+  background-color: var(--color-fondo);
+  padding: var(--espacio-m) var(--espacio-l);
+  border-bottom: 1px solid var(--color-borde);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-s);
+}
+
+.unidad-bloque__titulo {
+  font-size: var(--tamano-l);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  margin: 0;
+}
+
+.temas-lista {
+  display: flex;
+  flex-direction: column;
+}
+
+.tema-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--espacio-m) var(--espacio-l);
+  border-bottom: 1px solid var(--color-borde);
+  gap: var(--espacio-m);
+  transition: background-color var(--transicion);
+}
+
+.tema-fila:last-child {
+  border-bottom: none;
+}
+
+.tema-fila:hover {
+  background-color: var(--color-fondo);
+}
+
+.tema-fila__info {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-m);
+  flex-grow: 1;
+}
+
+.tema-fila__titulo {
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .tema-fila {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tema-fila__acciones {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Banner de Tutor Socrático en la Asignatura */
+.asignatura-tutor-banner {
+  background: linear-gradient(135deg, var(--color-superficie) 0%, rgba(0, 46, 69, 0.05) 100%);
+  border: 2px solid var(--color-acento);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m) var(--espacio-l);
+  margin-bottom: var(--espacio-l);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+}
+
+.asignatura-tutor-banner__info {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-m);
+}
+
+.asignatura-tutor-banner__avatar {
+  font-size: 40px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-fondo);
+  border-radius: var(--radio-completo);
+  border: 1px solid var(--color-borde);
+  flex-shrink: 0;
+}
+
+/* Botón flotante para invocar al Tutor */
+.tutor-flotante-btn {
+  position: fixed;
+  bottom: var(--espacio-l);
+  right: var(--espacio-l);
+  background: var(--color-primario);
+  color: var(--color-texto-inverso);
+  border: none;
+  border-radius: var(--radio-completo);
+  padding: var(--espacio-s) var(--espacio-m);
+  font-size: var(--tamano-m);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  cursor: pointer;
+  box-shadow: var(--sombra-3);
+  z-index: 100;
+  transition: transform var(--transicion-rapida), background var(--transicion-rapida);
+}
+
+.tutor-flotante-btn:hover {
+  transform: translateY(-2px);
+  background: var(--color-secundario);
+}
+
+/* Ventana emergente interactiva de chat del Tutor Socrático */
+.tutor-chat-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 46, 69, 0.45);
+  backdrop-filter: blur(2px);
+  z-index: 1100;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tutor-chat-ventana {
+  background: var(--color-superficie);
+  width: 100%;
+  max-width: 480px;
+  height: 100%;
+  box-shadow: var(--sombra-3);
+  display: flex;
+  flex-direction: column;
+  animation: deslizar-derecha 0.25s ease-out;
+}
+
+@keyframes deslizar-derecha {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.tutor-chat-cabecera {
+  background: var(--color-primario);
+  color: var(--color-texto-inverso);
+  padding: var(--espacio-m);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutor-chat-cabecera-info {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+}
+
+.tutor-chat-icono-avatar {
+  font-size: 32px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: var(--radio-completo);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutor-chat-titulo {
+  font-size: var(--tamano-m);
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-texto-inverso);
+}
+
+.tutor-chat-subtitulo {
+  font-size: var(--tamano-xs);
+  opacity: 0.85;
+}
+
+.tutor-chat-btn-cerrar {
+  background: transparent;
+  border: none;
+  color: var(--color-texto-inverso);
+  font-size: var(--tamano-xl);
+  cursor: pointer;
+  padding: var(--espacio-xs);
+  line-height: 1;
+}
+
+/* Barra de selección de contexto de tema */
+.tutor-chat-filtro-tema {
+  padding: var(--espacio-xs) var(--espacio-m);
+  background: var(--color-fondo);
+  border-bottom: 1px solid var(--color-borde);
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.tutor-chat-filtro-tema label {
+  font-size: var(--tamano-xs);
+  font-weight: 600;
+  color: var(--color-texto-suave);
+  white-space: nowrap;
+}
+
+.tutor-chat-filtro-tema select {
+  font-size: var(--tamano-xs);
+  padding: 4px 8px;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-s);
+  background: var(--color-superficie);
+  color: var(--color-texto);
+  flex: 1;
+}
+
+/* Área de mensajes del chat */
+.tutor-chat-mensajes {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--espacio-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+  background: var(--color-fondo);
+}
+
+.tutor-mensaje {
+  display: flex;
+  gap: var(--espacio-xs);
+  max-width: 85%;
+}
+
+.tutor-mensaje--estudiante {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.tutor-mensaje--tutor {
+  align-self: flex-start;
+}
+
+.tutor-mensaje-avatar {
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  background: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-completo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.tutor-mensaje-cuerpo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tutor-mensaje-burbuja {
+  padding: var(--espacio-s) var(--espacio-m);
+  border-radius: var(--radio-l);
+  font-size: var(--tamano-s);
+  line-height: var(--interlineado-base);
+  word-break: break-word;
+}
+
+.tutor-mensaje--estudiante .tutor-mensaje-burbuja {
+  background: var(--color-primario);
+  color: var(--color-texto-inverso);
+  border-bottom-right-radius: var(--radio-xs);
+}
+
+.tutor-mensaje--tutor .tutor-mensaje-burbuja {
+  background: var(--color-superficie);
+  color: var(--color-texto);
+  border: 1px solid var(--color-borde);
+  border-bottom-left-radius: var(--radio-xs);
+  box-shadow: var(--sombra-1);
+}
+
+.tutor-mensaje-tiempo {
+  font-size: 10px;
+  color: var(--color-texto-suave);
+  align-self: flex-end;
+}
+
+/* Indicador de pensamiento socrático */
+.tutor-pensando-caja {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: var(--espacio-xs) var(--espacio-s);
+  background: var(--color-superficie);
+  border-radius: var(--radio-m);
+  border: 1px solid var(--color-borde);
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  font-style: italic;
+}
+
+.tutor-punto-animado {
+  width: 6px;
+  height: 6px;
+  background: var(--color-acento);
+  border-radius: var(--radio-completo);
+  animation: punto-salto 1.2s infinite ease-in-out;
+}
+
+.tutor-punto-animado:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.tutor-punto-animado:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes punto-salto {
+  0%, 80%, 100% {
+    transform: scale(0.6);
+    opacity: 0.4;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Sugerencias rápidas de preguntas */
+.tutor-chat-sugerencias {
+  display: flex;
+  gap: var(--espacio-xs);
+  overflow-x: auto;
+  padding: var(--espacio-xs) var(--espacio-m);
+  background: var(--color-superficie);
+  border-top: 1px solid var(--color-borde);
+}
+
+.tutor-sugerencia-chip {
+  padding: 4px 10px;
+  background: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-completo);
+  font-size: var(--tamano-xs);
+  color: var(--color-primario);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all var(--transicion-rapida);
+}
+
+.tutor-sugerencia-chip:hover {
+  background: var(--color-primario);
+  color: var(--color-texto-inverso);
+  border-color: var(--color-primario);
+}
+
+/* Entrada de texto */
+.tutor-chat-formulario {
+  padding: var(--espacio-s) var(--espacio-m);
+  background: var(--color-superficie);
+  border-top: 1px solid var(--color-borde);
+  display: flex;
+  gap: var(--espacio-xs);
+}
+
+.tutor-chat-textarea {
+  flex: 1;
+  resize: none;
+  font-size: var(--tamano-s);
+  padding: var(--espacio-s);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  outline: none;
+  font-family: inherit;
+  max-height: 80px;
+}
+
+.tutor-chat-textarea:focus {
+  border-color: var(--color-primario);
+}
+
+.tutor-chat-btn-enviar {
+  background: var(--color-primario);
+  color: var(--color-texto-inverso);
+  border: none;
+  border-radius: var(--radio-m);
+  padding: 0 var(--espacio-m);
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transicion-rapida);
+}
+
+.tutor-chat-btn-enviar:hover {
+  background: var(--color-secundario);
+}
+
+.tutor-chat-btn-enviar:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .asignatura-tutor-banner {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .asignatura-tutor-banner__info {
+    flex-direction: column;
+  }
+  .tutor-chat-ventana {
+    max-width: 100%;
+  }
+}
+
+

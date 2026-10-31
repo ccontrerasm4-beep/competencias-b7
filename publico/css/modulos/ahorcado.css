@@ -1,0 +1,228 @@
+/* Módulo Ahorcado — Estilos */
+
+.ahorcado-cabecera {
+  margin-bottom: var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.ahorcado-tema-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+}
+
+.ahorcado-panel-juego {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-xl);
+  box-shadow: var(--sombra-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espacio-xl);
+  margin-bottom: var(--espacio-xl);
+}
+
+/* Ilustración del Globo */
+.ahorcado-globo-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.ahorcado-globo-svg {
+  width: 140px;
+  height: 180px;
+  overflow: visible;
+}
+
+.globo-cuerpo {
+  transition: rx 0.4s ease, ry 0.4s ease, cy 0.4s ease, fill 0.4s ease, opacity 0.4s ease;
+}
+
+.globo-brillo {
+  transition: opacity 0.4s ease, cy 0.4s ease;
+}
+
+.globo-nudo {
+  transition: cy 0.4s ease, fill 0.4s ease;
+}
+
+.globo-cuerda {
+  transition: all 0.4s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .globo-cuerpo, .globo-brillo, .globo-nudo, .globo-cuerda {
+    transition: none;
+  }
+}
+
+.ahorcado-vidas-texto {
+  font-size: var(--tamano-xs);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto-suave);
+}
+
+/* Pista pedagógica */
+.ahorcado-pista-caja {
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-m) var(--espacio-l);
+  text-align: center;
+  max-width: 580px;
+  width: 100%;
+}
+
+.ahorcado-pista-etiqueta {
+  font-size: var(--tamano-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  margin-bottom: 2px;
+}
+
+.ahorcado-pista-texto {
+  font-size: var(--tamano-m);
+  color: var(--color-texto);
+  margin: 0;
+  line-height: var(--interlineado-base);
+}
+
+/* Casillas de la palabra de 6 letras */
+.ahorcado-palabra {
+  display: flex;
+  justify-content: center;
+  gap: var(--espacio-s);
+  flex-wrap: wrap;
+}
+
+.ahorcado-casilla {
+  width: 48px;
+  height: 56px;
+  border-bottom: 4px solid var(--color-primario);
+  background-color: var(--color-fondo);
+  border-radius: var(--radio-s) var(--radio-s) 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--tamano-xl);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  user-select: none;
+  transition: all var(--transicion);
+}
+
+.ahorcado-casilla--acertada {
+  color: var(--color-exito);
+  border-bottom-color: var(--color-exito);
+  background-color: var(--color-exito-fondo);
+}
+
+.ahorcado-casilla--revelada {
+  color: var(--color-error);
+  border-bottom-color: var(--color-error);
+  background-color: var(--color-error-fondo);
+}
+
+/* Teclado en pantalla */
+.ahorcado-teclado {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+  align-items: center;
+  width: 100%;
+  max-width: 620px;
+}
+
+.teclado-fila {
+  display: flex;
+  gap: var(--espacio-xs);
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.teclado-tecla {
+  width: 38px;
+  height: 44px;
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-s);
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: all var(--transicion);
+  user-select: none;
+}
+
+.teclado-tecla:hover:not(:disabled) {
+  background-color: var(--color-primario);
+  color: var(--color-texto-inverso);
+  border-color: var(--color-primario);
+  transform: translateY(-1px);
+}
+
+.teclado-tecla:focus-visible {
+  outline: 2px solid var(--color-primario);
+  outline-offset: 2px;
+}
+
+.teclado-tecla:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background-color: var(--color-fondo);
+  border-color: transparent;
+  transform: none;
+}
+
+.teclado-tecla--acierto {
+  background-color: var(--color-exito-fondo) !important;
+  color: var(--color-exito) !important;
+  border-color: var(--color-exito) !important;
+  opacity: 0.8 !important;
+}
+
+.teclado-tecla--fallo {
+  background-color: var(--color-error-fondo) !important;
+  color: var(--color-error) !important;
+  border-color: var(--color-error) !important;
+  opacity: 0.8 !important;
+}
+
+/* Acciones post-partida */
+.ahorcado-acciones {
+  display: flex;
+  gap: var(--espacio-m);
+  justify-content: center;
+  margin-top: var(--espacio-s);
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .ahorcado-casilla {
+    width: 38px;
+    height: 46px;
+    font-size: var(--tamano-l);
+  }
+
+  .teclado-tecla {
+    width: 30px;
+    height: 38px;
+    font-size: var(--tamano-s);
+  }
+}
+

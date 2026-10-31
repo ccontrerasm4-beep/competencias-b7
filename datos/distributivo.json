@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dis_000001",
+    "asignaturaId": "asi_000001",
+    "paralelo": "A",
+    "periodo": "2026-2027",
+    "docenteId": "usu_000002",
+    "estudiantes": [
+      "usu_000004",
+      "usu_000005",
+      "usu_000006",
+      "usu_000007",
+      "usu_000008",
+      "usu_000009"
+    ],
+    "fecha": "2026-10-29T00:00:00-05:00"
+  }
+]

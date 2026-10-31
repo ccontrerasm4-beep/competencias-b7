@@ -1,0 +1,178 @@
+/* Estilos del módulo de gestión de asignaturas (admin y docente) */
+.asignaturas-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-m);
+  margin-bottom: var(--espacio-l);
+}
+
+.asignaturas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--espacio-l);
+}
+
+.asignatura-tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 100%;
+  border-radius: var(--radio-l);
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  padding: 0;
+  box-shadow: var(--sombra-1);
+  transition: transform var(--transicion), box-shadow var(--transicion);
+}
+
+.asignatura-tarjeta:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-2);
+}
+
+.asignatura-tarjeta__portada {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background-color: var(--color-fondo);
+  border-bottom: 1px solid var(--color-borde);
+  overflow: hidden;
+}
+
+.asignatura-tarjeta__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--transicion);
+}
+
+.asignatura-tarjeta:hover .asignatura-tarjeta__img {
+  transform: scale(1.03);
+}
+
+.asignatura-tarjeta__placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espacio-xs);
+  background: linear-gradient(135deg, rgba(0, 51, 102, 0.08) 0%, rgba(255, 102, 0, 0.12) 100%);
+  color: var(--color-primario);
+}
+
+.asignatura-tarjeta__placeholder-icono {
+  font-size: 2.5rem;
+}
+
+.asignatura-tarjeta__placeholder-texto {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  font-weight: var(--peso-seminegrita);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.asignatura-tarjeta__badge-nivel {
+  position: absolute;
+  top: var(--espacio-s);
+  right: var(--espacio-s);
+  box-shadow: var(--sombra-1);
+}
+
+.asignatura-tarjeta__cuerpo {
+  padding: var(--espacio-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+  flex-grow: 1;
+}
+
+.asignatura-tarjeta__cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--espacio-s);
+}
+
+.asignatura-tarjeta__titulo {
+  font-size: var(--tamano-l);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  margin: 0;
+  line-height: var(--interlineado-compacto);
+}
+
+.asignatura-tarjeta__desc {
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+  line-height: var(--interlineado-base);
+  margin: 0;
+  flex-grow: 1;
+}
+
+.asignatura-tarjeta__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  padding-top: var(--espacio-s);
+  border-top: 1px solid var(--color-borde);
+}
+
+.asignatura-tarjeta__acciones {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--espacio-s);
+}
+
+/* Modal de edición de portada */
+.portada-editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.portada-editor__preview {
+  width: 100%;
+  height: 160px;
+  border-radius: var(--radio-m);
+  border: 2px dashed var(--color-borde);
+  overflow: hidden;
+  background-color: var(--color-fondo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portada-editor__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.portada-editor__placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espacio-xs);
+  font-size: 2rem;
+}
+
+@media (max-width: 540px) {
+  .asignaturas-cabecera {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .asignaturas-grid {
+    grid-template-columns: 1fr;
+  }
+}

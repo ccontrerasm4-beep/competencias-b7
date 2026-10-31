@@ -1,0 +1,13 @@
+/* Estilos específicos de la página de ingreso */
+.auth-tarjeta {
+  max-width: 480px;
+  margin: var(--espacio-l) auto;
+}
+
+.auth-enlace-alternativo {
+  text-align: center;
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+  margin-top: var(--espacio-m);
+}
+

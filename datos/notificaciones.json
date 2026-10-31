@@ -1,0 +1,128 @@
+[
+  {
+    "usuarioId": "usu_000004",
+    "tipo": "sistema",
+    "mensaje": "Bienvenido al ecosistema",
+    "enlace": "/index.html",
+    "leida": true,
+    "id": "not_000001",
+    "fecha": "2026-10-30T17:32:21.098Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "tipo": "mensaje-docente",
+    "mensaje": "Aviso del docente",
+    "enlace": "/paginas/actividades.html",
+    "leida": true,
+    "id": "not_000002",
+    "fecha": "2026-10-30T17:32:21.596Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "tipo": "mensaje-docente",
+    "mensaje": "Comunicado institucional",
+    "enlace": "",
+    "leida": true,
+    "id": "not_000003",
+    "fecha": "2026-10-30T17:32:21.608Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia: Noticia de prueba 1793381541625",
+    "enlace": "/paginas/noticia.html?id=not_000003",
+    "leida": false,
+    "id": "not_000004",
+    "fecha": "2026-10-30T17:32:21.633Z"
+  },
+  {
+    "usuarioId": "usu_000005",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia: Noticia de prueba 1793381541625",
+    "enlace": "/paginas/noticia.html?id=not_000003",
+    "leida": false,
+    "id": "not_000005",
+    "fecha": "2026-10-30T17:32:21.636Z"
+  },
+  {
+    "usuarioId": "usu_000006",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia: Noticia de prueba 1793381541625",
+    "enlace": "/paginas/noticia.html?id=not_000003",
+    "leida": false,
+    "id": "not_000006",
+    "fecha": "2026-10-30T17:32:21.638Z"
+  },
+  {
+    "usuarioId": "usu_000007",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia: Noticia de prueba 1793381541625",
+    "enlace": "/paginas/noticia.html?id=not_000003",
+    "leida": false,
+    "id": "not_000007",
+    "fecha": "2026-10-30T17:32:21.639Z"
+  },
+  {
+    "usuarioId": "usu_000008",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia: Noticia de prueba 1793381541625",
+    "enlace": "/paginas/noticia.html?id=not_000003",
+    "leida": false,
+    "id": "not_000008",
+    "fecha": "2026-10-30T17:32:21.641Z"
+  },
+  {
+    "usuarioId": "usu_000009",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia: Noticia de prueba 1793381541625",
+    "enlace": "/paginas/noticia.html?id=not_000003",
+    "leida": false,
+    "id": "not_000009",
+    "fecha": "2026-10-30T17:32:21.642Z"
+  },
+  {
+    "usuarioId": "usu_000002",
+    "tipo": "alerta",
+    "mensaje": "Alerta pedagógica: Carmen Delgado requiere atención (inactividad). Sin actividad registrada en la plataforma en los últimos 7 días.",
+    "enlace": "/paginas/panel-docente.html?grupoId=dis_000001",
+    "leida": false,
+    "id": "not_000010",
+    "fecha": "2026-10-31T00:27:22.103Z"
+  },
+  {
+    "usuarioId": "usu_000002",
+    "tipo": "alerta",
+    "mensaje": "Alerta pedagógica: David Pauta requiere atención (inactividad). Sin actividad registrada en la plataforma en los últimos 7 días.",
+    "enlace": "/paginas/panel-docente.html?grupoId=dis_000001",
+    "leida": false,
+    "id": "not_000011",
+    "fecha": "2026-10-31T00:27:22.116Z"
+  },
+  {
+    "usuarioId": "usu_000002",
+    "tipo": "alerta",
+    "mensaje": "Alerta pedagógica: Elena Rivas requiere atención (inactividad). Sin actividad registrada en la plataforma en los últimos 7 días.",
+    "enlace": "/paginas/panel-docente.html?grupoId=dis_000001",
+    "leida": false,
+    "id": "not_000012",
+    "fecha": "2026-10-31T00:27:22.133Z"
+  },
+  {
+    "usuarioId": "usu_000002",
+    "tipo": "alerta",
+    "mensaje": "Alerta pedagógica: Fernando Vega requiere atención (inactividad). Sin actividad registrada en la plataforma en los últimos 7 días.",
+    "enlace": "/paginas/panel-docente.html?grupoId=dis_000001",
+    "leida": false,
+    "id": "not_000013",
+    "fecha": "2026-10-31T00:27:22.137Z"
+  },
+  {
+    "usuarioId": "usu_000002",
+    "tipo": "sistema",
+    "mensaje": "El banco de preguntas para el tema \"Ingresos y costos\" (Nivel 1) tiene pocas preguntas disponibles y los estudiantes están repitiendo preguntas.",
+    "enlace": "/paginas/banco-preguntas.html?temaId=tem_000001",
+    "leida": false,
+    "id": "not_000014",
+    "fecha": "2026-10-31T01:09:12.977Z"
+  }
+]

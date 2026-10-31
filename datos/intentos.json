@@ -1,0 +1,32 @@
+[
+  {
+    "usuarioId": "usu_000002",
+    "actividad": "sopa-letras",
+    "temaId": "tem_000001",
+    "nivel": null,
+    "puntaje": 1,
+    "maximo": 8,
+    "errores": 7,
+    "duracionSeg": 50,
+    "detalle": {},
+    "puntos": 1,
+    "id": "int_000001",
+    "fecha": "2026-10-31T00:28:28.985Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "actividad": "quiz",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "puntaje": 9,
+    "maximo": 10,
+    "errores": 1,
+    "duracionSeg": 1,
+    "detalle": {
+      "aprobado": true
+    },
+    "puntos": 45,
+    "id": "int_000002",
+    "fecha": "2026-10-31T01:09:12.960Z"
+  }
+]

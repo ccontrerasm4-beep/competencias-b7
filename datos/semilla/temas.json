@@ -1,0 +1,95 @@
+[
+  {
+    "id": "tem_000001",
+    "unidadId": "uni_000001",
+    "titulo": "Ingresos y costos",
+    "orden": 1,
+    "objetivos": [
+      "Distinguir los ingresos por ventas de los costos de producción.",
+      "Calcular el ingreso total, el costo unitario y el margen sobre el costo de producción.",
+      "Argumentar una decisión a partir de esos valores."
+    ],
+    "resumen": "Comprende la naturaleza de los ingresos por venta y los costos de producción a través del caso didáctico de Fruta Fría en El Guabo, aprendiendo a calcular precio, cantidad, costo unitario y margen sobre costos.",
+    "ejemplos": [
+      "Ejemplo A: Clasificación y margen básico. Ventas de bolos: mora USD 18, maracuyá USD 12, chocolate USD 10 (Ingresos = USD 40). Costos: fruta USD 8, leche USD 6, fundas USD 4 (Costos = USD 18). Margen sobre costo de producción: 40 - 18 = USD 22.",
+      "Ejemplo B: Costo unitario y margen de lote. Fruta Fría produce y vende 40 bolos a USD 1 cada uno con costo total de lote de USD 24. Ingreso total: 40 × 1 = USD 40. Costo unitario: 24 ÷ 40 = USD 0,60 por bolo. Margen sobre producción: 40 - 24 = USD 16.",
+      "Ejemplo C: Comparación de jornadas. Jornada A (40 bolos a USD 1, costo USD 24, margen USD 16) frente a Jornada B (50 bolos a USD 1, costo USD 35, margen USD 15). Se elige la opción A porque genera mayor margen."
+    ],
+    "erroresFrecuentes": [
+      "Asumir que todo el dinero de ventas representa ganancia neta sin descontar costos.",
+      "Confundir el costo total del lote con el costo unitario de cada producto.",
+      "Creer que vender más unidades siempre produce un margen económico superior.",
+      "Equiparar el margen sobre costos de producción con la utilidad neta definitiva."
+    ],
+    "preguntasGuia": [
+      "¿Qué diferencia a una entrada por ventas de un recurso consumido para producir?",
+      "¿Cómo se calcula el costo unitario a partir del costo total del lote?",
+      "¿Por qué un mayor volumen de ventas no siempre asegura mayor margen?"
+    ],
+    "recursos": [
+      {
+        "tipo": "infografia",
+        "titulo": "Infografía: Educación Financiera - Ingresos y Costos en el Emprendimiento",
+        "url": "https://drive.google.com/file/d/demo-infografia-ingresos-costos/view"
+      }
+    ],
+    "palabrasClave": [
+      "ingreso",
+      "costo",
+      "precio",
+      "margen",
+      "produccion",
+      "unidad"
+    ],
+    "dificultad": 1,
+    "fuentes": "Currículo Priorizado de Bachillerato 2025; Base Pedagógica Gravity Misión Emprende.",
+    "estado": "publicado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "tem_000002",
+    "unidadId": "uni_000001",
+    "titulo": "Gastos e inversión",
+    "orden": 2,
+    "objetivos": [
+      "Diferenciar gastos operativos e inversión en el funcionamiento de un pequeño emprendimiento.",
+      "Relacionar gastos e inversión con los ingresos y costos de producción.",
+      "Tomar decisiones financieras responsables considerando el propósito y duración de cada desembolso."
+    ],
+    "resumen": "Distingue entre desembolsos operativos que apoyan la comercialización (gastos) y la adquisición de bienes o equipos duraderos que benefician futuros períodos (inversión).",
+    "ejemplos": [
+      "Ejemplo del tema 2: Clasificar y calcular. Se venden 60 bolos a USD 1,25 (Ingreso: 60 × 1,25 = USD 75). Costos directos de ingredientes y envases: 38 + 7 = USD 45. Margen sobre producción: 75 - 45 = USD 30. Gasto de publicidad: USD 5 (Diferencia simplificada: 30 - 5 = USD 25). Inversión en congeladora: USD 55 para conservar bolos durante futuras jornadas."
+    ],
+    "erroresFrecuentes": [
+      "Considerar que cualquier salida de dinero es automáticamente un costo de producción.",
+      "Tratar la compra de maquinaria duradera como insumo consumido en un único día.",
+      "Interpretar la adquisición de equipo como una pérdida en lugar de una inversión.",
+      "Confundir una venta (ingreso) con un ahorro (reserva de recursos)."
+    ],
+    "preguntasGuia": [
+      "¿Qué distingue a un gasto operativo de un costo directo de fabricación?",
+      "¿Por qué la compra de un equipo durable se clasifica como inversión y no como costo del día?",
+      "¿Cómo influyen los gastos e inversiones en el flujo de efectivo y en los resultados futuros?"
+    ],
+    "recursos": [
+      {
+        "tipo": "video",
+        "titulo": "Video: Cómo Fluye el Dinero en un Emprendimiento",
+        "url": "https://drive.google.com/file/d/demo-video-flujo-dinero/view"
+      }
+    ],
+    "palabrasClave": [
+      "gasto",
+      "inversion",
+      "activo",
+      "capital",
+      "equipo",
+      "publicidad"
+    ],
+    "dificultad": 2,
+    "fuentes": "Currículo Priorizado de Bachillerato 2025; Base Pedagógica Gravity Misión Emprende.",
+    "estado": "publicado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  }
+]
+

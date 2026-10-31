@@ -1,0 +1,13 @@
+[
+  {
+    "codigo": "EE-2026-KLTYE8",
+    "usuarioId": "usu_000004",
+    "tipo": "nivel-quiz",
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "detalle": "Aprobación del Nivel 1 en el Quiz del tema: Ingresos y costos",
+    "nombreCompleto": "Ana López",
+    "id": "cer_000001",
+    "fecha": "2026-10-31T01:56:00.140Z"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "estudianteId": "usu_000006",
+    "docenteId": "usu_000002",
+    "grupoId": "dis_000001",
+    "regla": "inactividad",
+    "temaId": null,
+    "detalle": "Sin actividad registrada en la plataforma en los últimos 7 días.",
+    "estado": "activa",
+    "id": "ale_000001",
+    "fecha": "2026-10-31T00:27:22.100Z"
+  },
+  {
+    "estudianteId": "usu_000007",
+    "docenteId": "usu_000002",
+    "grupoId": "dis_000001",
+    "regla": "inactividad",
+    "temaId": null,
+    "detalle": "Sin actividad registrada en la plataforma en los últimos 7 días.",
+    "estado": "activa",
+    "id": "ale_000002",
+    "fecha": "2026-10-31T00:27:22.113Z"
+  },
+  {
+    "estudianteId": "usu_000008",
+    "docenteId": "usu_000002",
+    "grupoId": "dis_000001",
+    "regla": "inactividad",
+    "temaId": null,
+    "detalle": "Sin actividad registrada en la plataforma en los últimos 7 días.",
+    "estado": "activa",
+    "id": "ale_000003",
+    "fecha": "2026-10-31T00:27:22.120Z"
+  },
+  {
+    "estudianteId": "usu_000009",
+    "docenteId": "usu_000002",
+    "grupoId": "dis_000001",
+    "regla": "inactividad",
+    "temaId": null,
+    "detalle": "Sin actividad registrada en la plataforma en los últimos 7 días.",
+    "estado": "activa",
+    "id": "ale_000004",
+    "fecha": "2026-10-31T00:27:22.135Z"
+  }
+]

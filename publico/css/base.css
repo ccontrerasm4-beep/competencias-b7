@@ -1,0 +1,196 @@
+/* Reset ligero */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fuente-base);
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-regular);
+  line-height: var(--interlineado-base);
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tipografía de títulos y texto */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fuente-titulos);
+  color: var(--color-primario);
+  line-height: var(--interlineado-compacto);
+  font-weight: var(--peso-negrita);
+}
+
+h1 {
+  font-size: var(--tamano-3xl);
+  margin-bottom: var(--espacio-m);
+}
+
+h2 {
+  font-size: var(--tamano-2xl);
+  margin-bottom: var(--espacio-s);
+}
+
+h3 {
+  font-size: var(--tamano-xl);
+  margin-bottom: var(--espacio-s);
+}
+
+h4 {
+  font-size: var(--tamano-l);
+  margin-bottom: var(--espacio-xs);
+}
+
+p {
+  margin-bottom: var(--espacio-m);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Enlaces accesibles */
+a {
+  color: var(--color-info);
+  text-decoration: none;
+  transition: color var(--transicion);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Foco visible para navegación por teclado (Accesibilidad AA) */
+:focus-visible {
+  outline: 3px solid var(--color-foco);
+  outline-offset: 3px;
+}
+
+/* Diseño general: Encabezado arriba, menú a la izquierda y contenido principal */
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 260px 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+#plantilla {
+  display: contents;
+}
+
+.encabezado {
+  grid-area: header;
+}
+
+.menu {
+  grid-area: sidebar;
+  width: 260px;
+  min-height: 100%;
+}
+
+#contenido {
+  grid-area: main;
+  padding-block: var(--espacio-l);
+  min-width: 0;
+}
+
+.pie {
+  grid-area: footer;
+}
+
+/* En móvil (por debajo de 768 px) el menú se oculta y se abre con el botón */
+@media (max-width: 768px) {
+  body {
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    box-shadow: var(--sombra-3);
+    transform: translateX(-100%);
+    transition: transform var(--transicion);
+  }
+
+  .menu.menu--abierto {
+    transform: translateX(0);
+  }
+
+  #contenido {
+    padding-block: var(--espacio-m);
+  }
+}
+
+/* Disposiciones estructurales */
+.contenedor {
+  max-width: var(--ancho-maximo);
+  margin-inline: auto;
+  padding-inline: var(--espacio-m);
+  width: 100%;
+}
+
+.pila {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--espacio-m);
+  align-items: center;
+}
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--espacio-m);
+}
+
+/* Utilidades de visibilidad y accesibilidad */
+.oculto {
+  display: none !important;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

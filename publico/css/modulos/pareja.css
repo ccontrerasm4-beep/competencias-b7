@@ -1,0 +1,239 @@
+/* Módulo Encuentra la Pareja — Estilos */
+
+.pareja-cabecera {
+  margin-bottom: var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.pareja-tema-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+}
+
+.pareja-panel-control {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m) var(--espacio-l);
+  margin-bottom: var(--espacio-l);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+}
+
+.pareja-estadisticas {
+  display: flex;
+  gap: var(--espacio-l);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pareja-metrica {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pareja-metrica__etiqueta {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.pareja-metrica__valor {
+  font-size: var(--tamano-l);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+}
+
+.pareja-dificultades {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.pareja-dificultad-btn {
+  font-size: var(--tamano-xs);
+  padding: var(--espacio-xs) var(--espacio-s);
+  border-radius: var(--radio-m);
+}
+
+/* Tablero de cartas en cuadrícula */
+.pareja-tablero {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: var(--espacio-m);
+  margin-bottom: var(--espacio-xl);
+}
+
+/* Tarjeta con efecto giro 3D */
+.tarjeta-pareja {
+  perspective: 1000px;
+  height: 140px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  width: 100%;
+  outline: none;
+  display: block;
+}
+
+.tarjeta-pareja__interno {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transform-style: preserve-3d;
+  border-radius: var(--radio-l);
+}
+
+.tarjeta-pareja:focus-visible .tarjeta-pareja__interno {
+  outline: 2px solid var(--color-primario);
+  outline-offset: 3px;
+}
+
+.tarjeta-pareja--volteada .tarjeta-pareja__interno,
+.tarjeta-pareja--emparejada .tarjeta-pareja__interno {
+  transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tarjeta-pareja__interno {
+    transition: none;
+  }
+}
+
+.tarjeta-pareja__cara {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radio-l);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--espacio-s);
+  box-shadow: var(--sombra-1);
+  border: 1px solid var(--color-borde);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Cara boca abajo (dorso) */
+.tarjeta-pareja__cara--dorso {
+  background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-oscuro) 100%);
+  color: var(--color-texto-inverso);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espacio-xs);
+}
+
+.tarjeta-pareja__dorso-icono {
+  font-size: var(--tamano-2xl);
+  opacity: 0.9;
+}
+
+.tarjeta-pareja__dorso-texto {
+  font-size: var(--tamano-xs);
+  opacity: 0.75;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Cara frontal (contenido) */
+.tarjeta-pareja__cara--frente {
+  background-color: var(--color-superficie);
+  color: var(--color-texto);
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: var(--espacio-s);
+}
+
+.tarjeta-pareja__tipo-badge {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: var(--peso-negrita);
+  padding: 2px 6px;
+  border-radius: var(--radio-completo);
+  margin-bottom: 2px;
+}
+
+.tarjeta-pareja__tipo-badge--termino {
+  background-color: rgba(0, 51, 102, 0.1);
+  color: var(--color-primario);
+}
+
+.tarjeta-pareja__tipo-badge--definicion {
+  background-color: rgba(255, 127, 39, 0.15);
+  color: var(--color-acento);
+}
+
+.tarjeta-pareja__contenido {
+  font-size: var(--tamano-xs);
+  line-height: var(--interlineado-compacto);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  margin: auto 0;
+  word-break: break-word;
+}
+
+.tarjeta-pareja__contenido--termino {
+  font-size: var(--tamano-s);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+}
+
+/* Estado emparejado */
+.tarjeta-pareja--emparejada {
+  cursor: default;
+}
+
+.tarjeta-pareja--emparejada .tarjeta-pareja__cara--frente {
+  background-color: var(--color-exito-fondo);
+  border-color: var(--color-exito);
+}
+
+.tarjeta-pareja--emparejada .tarjeta-pareja__tipo-badge {
+  background-color: var(--color-exito);
+  color: var(--color-texto-inverso);
+}
+
+/* Panel de retroalimentación */
+.pareja-retro-contenedor {
+  margin-top: var(--espacio-l);
+  margin-bottom: var(--espacio-l);
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .pareja-tablero {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--espacio-s);
+  }
+
+  .tarjeta-pareja {
+    height: 120px;
+  }
+}
+

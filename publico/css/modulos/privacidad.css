@@ -1,0 +1,28 @@
+/* Estilos del módulo de privacidad */
+.privacidad-tarjeta {
+  max-width: 820px;
+  margin: var(--espacio-m) auto;
+}
+
+.privacidad-bloque {
+  margin-bottom: var(--espacio-l);
+}
+
+.privacidad-bloque h2 {
+  font-size: var(--tamano-l);
+  color: var(--color-primario);
+  margin-bottom: var(--espacio-xs);
+}
+
+.privacidad-bloque p,
+.privacidad-bloque ul {
+  font-size: var(--tamano-m);
+  color: var(--color-texto);
+  line-height: var(--interlineado-base);
+}
+
+.privacidad-bloque ul {
+  padding-left: var(--espacio-l);
+  margin-top: var(--espacio-xs);
+}
+

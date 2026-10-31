@@ -1,0 +1,169 @@
+/* Estilos del panel de progreso del estudiante */
+.progreso-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xl);
+  padding-block: var(--espacio-l);
+}
+
+.progreso-cabecera {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.progreso-cabecera__titulo {
+  font-size: var(--tamano-2xl);
+  color: var(--color-primario);
+  margin: 0;
+}
+
+.progreso-cabecera__desc {
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+  margin: 0;
+}
+
+/* 1. Tarjetas de métricas principales */
+.progreso-metricas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: var(--espacio-m);
+}
+
+.metrica-tarjeta {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-m);
+  padding: var(--espacio-l);
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  box-shadow: var(--sombra-1);
+  transition: transform var(--transicion), box-shadow var(--transicion);
+}
+
+.metrica-tarjeta:hover {
+  box-shadow: var(--sombra-2);
+}
+
+.metrica-tarjeta__icono {
+  font-size: var(--tamano-2xl);
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radio-completo);
+  background-color: var(--color-fondo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.metrica-tarjeta__info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-2xs);
+  min-width: 0;
+}
+
+.metrica-tarjeta__valor {
+  font-size: var(--tamano-xl);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  line-height: 1.1;
+  word-break: break-word;
+}
+
+.metrica-tarjeta__etiqueta {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  font-weight: var(--peso-medio);
+}
+
+/* 2. Cuadrícula de gráficos */
+.progreso-graficos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--espacio-l);
+}
+
+.grafico-contenedor {
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+  max-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grafico-tarjeta canvas {
+  width: 100% !important;
+  max-height: 280px;
+}
+
+/* 3. Lista de pendientes */
+.pendientes-seccion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+}
+
+.lista-pendientes {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+.pendiente-tarjeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--espacio-m) var(--espacio-l);
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  gap: var(--espacio-m);
+  flex-wrap: wrap;
+  transition: border-color var(--transicion), box-shadow var(--transicion);
+}
+
+.pendiente-tarjeta:hover {
+  border-color: var(--color-secundario);
+  box-shadow: var(--sombra-1);
+}
+
+.pendiente-tarjeta__info {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  min-width: 0;
+}
+
+.pendiente-tarjeta__icono {
+  font-size: var(--tamano-l);
+  color: var(--color-acento);
+  flex-shrink: 0;
+}
+
+.pendiente-tarjeta__titulo {
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto);
+  margin: 0;
+  word-break: break-word;
+}
+
+@media (max-width: 520px) {
+  .progreso-graficos-grid {
+    grid-template-columns: 1fr;
+  }
+  .pendiente-tarjeta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pendiente-tarjeta .btn {
+    width: 100%;
+  }
+}
+

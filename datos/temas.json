@@ -1,0 +1,324 @@
+[
+  {
+    "id": "tem_000001",
+    "unidadId": "uni_000001",
+    "titulo": "Ingresos y costos: ¿Cómo gana dinero un emprendedor?",
+    "orden": 1,
+    "objetivos": [
+      "Distinguir claramente el dinero que entra por ventas del dinero consumido para producir.",
+      "Calcular de forma práctica el ingreso total, el costo unitario y el margen de ganancia.",
+      "Tomar decisiones financieras inteligentes para que el emprendimiento sea sostenible."
+    ],
+    "resumen": "¡Bienvenido al mundo real del emprendimiento! Muchas personas creen que tener un negocio exitoso se trata únicamente de vender mucho, pero la verdadera clave está en los números que hay detrás.\n\nEn este tema acompañamos la historia de **Fruta Fría en El Guabo (El Oro)**, un emprendimiento escolar de bolos y jugos naturales. Para saber si ganamos o perdemos dinero, debemos manejar tres conceptos fundamentales:\n\n- **Ingreso Total (IT)**: Es todo el dinero que recibes cuando tus clientes pagan por tus productos o servicios. Se calcula multiplicando el precio de venta por la cantidad vendida.\n- **Costo de Producción (CP)**: Es lo que tienes que gastar obligatoriamente para elaborar tu producto: frutas frescas, leche, azúcar y las funditas herméticas.\n- **Margen de Ganancia**: Es la diferencia entre lo que vendiste y lo que te costó producir. ¡Este margen es el que permite que tu negocio crezca y recompense tu esfuerzo!",
+    "ejemplos": [
+      "Caso Práctico 1: El recreo en el colegio. Fruta Fría prepara y vende 40 bolos de mora a $1,00 cada uno. Ingreso total: 40 × $1,00 = $40,00. En ingredientes se gastó: $10 en fruta, $5 en leche y $3 en fundas (Costo total = $18,00). Margen sobre producción: $40,00 − $18,00 = $22,00. ¡El negocio generó $22,00 limpios para reinvertir!",
+      "Caso Práctico 2: ¿Cuánto cuesta hacer cada unidad? Imagina que cocinas un lote de 50 empanadas y gastaste $20,00 en harina, queso y aceite. Tu costo unitario es: $20,00 ÷ 50 = $0,40 por empanada. Si decides venderlas a $1,00, tu margen por cada empanada es de $0,60 ($1,00 − $0,40).",
+      "Caso Práctico 3: ¿Vender más siempre es mejor? En la Jornada A vendes 30 bolos a $1,00 con costo de $0,40 (Margen: $18,00). En la Jornada B vendes 50 bolos a precio de remate $0,70 pero con costo de $0,45 por compras de última hora (Margen: $12,50). ¡En la Jornada B trabajaste más, vendiste más, pero ganaste $5,50 MENOS! Moraleja: Controlar los costos es más importante que vender desesperadamente."
+    ],
+    "erroresFrecuentes": [
+      "Pensar que todo el dinero que entra a la caja es ganancia tuya para gastar en gustos personales.",
+      "Olvidar sumar los costos pequeños o invisibles como servilletas, funditas o el pasaje del bus para comprar insumos.",
+      "Poner precios 'al ojo' o copiando al vecino sin saber exactamente cuánto te costó a ti fabricarlo.",
+      "Creer que bajar los precios siempre aumenta las ganancias sin calcular el impacto en tu margen unitario."
+    ],
+    "preguntasGuia": [
+      "¿Si hoy vendiste $50 en productos pero compraste $35 de insumos, cuánto dinero realmente le pertenece a tu negocio para mañana?",
+      "¿Por qué calcular el costo unitario de cada producto te protege de dar descuentos excesivos?",
+      "¿Qué ocurriría si los ingredientes suben de precio un 20% y mantienes el mismo precio de venta?"
+    ],
+    "recursos": [
+      {
+        "tipo": "infografia",
+        "titulo": "Infografía: La Fórmula Secreta de los Ingresos y Costos",
+        "url": "https://drive.google.com/file/d/1E3hA4H7ki_HeQD-PCWfXP_GUy4KpFqiX/view?pli=1"
+      }
+    ],
+    "palabrasClave": [
+      "ingreso",
+      "costo",
+      "precio",
+      "margen",
+      "costo unitario",
+      "produccion",
+      "rentabilidad"
+    ],
+    "dificultad": 1,
+    "fuentes": "Currículo Nacional de Bachillerato Ecuador · Emprendimiento y Gestión 1.º BGU.",
+    "estado": "publicado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "tem_000002",
+    "unidadId": "uni_000001",
+    "titulo": "Gastos e inversión: Cuidando el futuro del negocio",
+    "orden": 2,
+    "objetivos": [
+      "Diferenciar con claridad los gastos operativos de las inversiones en activos duraderos.",
+      "Identificar cómo cada tipo de salida de dinero afecta la liquidez diaria y el crecimiento a largo plazo.",
+      "Elaborar un presupuesto básico separando lo urgente de lo que genera valor duradero."
+    ],
+    "resumen": "No todas las salidas de dinero son iguales. En la vida diaria de cualquier emprendedor ecuatoriano surgen pagos imprevistos y compras de equipos.\n\nPara no descapitalizarse, es vital distinguir entre:\n\n- **Costos de Producción**: Lo que se transforma directamente en el producto (fruta, fundas, azúcar).\n- **Gastos Operativos y Administrativos**: Pagos necesarios para que el negocio funcione y se dé a conocer, pero que se consumen en el período: la cuenta de internet, volantes publicitarios, transporte o la recarga del celular para atender pedidos por WhatsApp.\n- **Inversión en Bienes de Capital (Activos)**: Compras de equipos o herramientas duraderas que no se agotan en un solo día, sino que te ayudarán a producir durante meses o años (por ejemplo: una licuadora industrial, una congeladora o mesas de acero inoxidable).\n\n¡La inversión no es una pérdida, es un semillero de capacidad productiva para el futuro!",
+    "ejemplos": [
+      "Caso Práctico 1: El dilema de la congeladora. Fruta Fría vende 60 bolos a $1,25 (Ingreso: $75,00). Costos de ingredientes: $45,00 (Margen: $30,00). Gasto en publicidad digital: $5,00 (Dinero operativo disponible: $25,00). Además, deciden comprar una congeladora usada por $55,00. Esos $55,00 son una inversión que no se descuenta de la ganancia del día, porque la congeladora servirá para los próximos 3 años.",
+      "Caso Práctico 2: Clasificando desembolsos en una panadería artesanal. Comprar 5 quintales de harina es Costo. Pagar el recibo de luz del horno y volantes es Gasto. Comprar una amasadora eléctrica automática es Inversión."
+    ],
+    "erroresFrecuentes": [
+      "Tratar la compra de una maquinaria como una pérdida del mes en lugar de un activo valioso.",
+      "Gastar demasiado en publicidad o lujos de oficina antes de comprobar que el producto realmente se vende.",
+      "Confundir un gasto necesario con un capricho personal del dueño del negocio."
+    ],
+    "preguntasGuia": [
+      "¿Por qué comprar una licuadora no se debe registrar como un costo consumido en un solo día?",
+      "¿Qué diferencia hay entre pagar el alquiler del local y comprar una vitrina exhibidora?",
+      "¿Cómo decides si conviene alquilar una máquina o comprarla como inversión propia?"
+    ],
+    "recursos": [
+      {
+        "tipo": "video",
+        "titulo": "Video Explicativo: Cómo fluye el dinero en un emprendimiento",
+        "url": "https://drive.google.com/file/d/demo-video-flujo-dinero/view"
+      }
+    ],
+    "palabrasClave": [
+      "gasto",
+      "inversion",
+      "activo",
+      "capital",
+      "maquinaria",
+      "publicidad",
+      "presupuesto"
+    ],
+    "dificultad": 2,
+    "fuentes": "Currículo Nacional de Bachillerato Ecuador · Emprendimiento y Gestión 1.º BGU.",
+    "estado": "publicado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "tem_000003",
+    "unidadId": "uni_000001",
+    "titulo": "Punto de equilibrio: ¿Cuánto debo vender para no perder?",
+    "orden": 3,
+    "objetivos": [
+      "Comprender el concepto del Punto de Equilibrio como la meta mínima de supervivencia financiera.",
+      "Calcular cuántas unidades se deben vender al mes para cubrir los costos fijos y variables.",
+      "Establecer metas de ventas realistas y motivadoras para el equipo emprendedor."
+    ],
+    "resumen": "El **Punto de Equilibrio** es el momento mágico y crucial de todo negocio: es el nivel de ventas exacto en el que **ni ganas ni pierdes dinero**. Tus ingresos cubren exactamente todos tus costos y gastos.\n\n¿Por qué es tan importante para un estudiante emprendedor? Porque te da una **meta diaria o mensual clara**:\n\n- Antes de llegar al punto de equilibrio: Estás en zona de déficit o pérdida temporal.\n- Justo en el punto de equilibrio: Tu negocio se sostiene solo, pagó todos sus compromisos.\n- Después del punto de equilibrio: ¡Cada unidad adicional que vendas se convierte en ganancia neta pura para el negocio!\n\nPara calcularlo separamos los **Costos Fijos** (los que pagas vendas o no vendas, como el alquiler del puesto o el plan de teléfono) del **Margen de Contribución Unitario** (Precio de Venta − Costo Variable de cada producto).",
+    "ejemplos": [
+      "Caso Práctico 1: La tienda escolar de refrigerios. Tienes un costo fijo mensual de $100 (alquiler de vitrina y permiso). Cada sándwich lo vendes a $2,00 y prepararlo cuesta $1,00 (Margen unitario: $1,00). Punto de equilibrio: $100 ÷ $1,00 = ¡Debes vender exactamente 100 sándwiches al mes! El sándwich número 101 ya representa ganancia neta.",
+      "Caso Práctico 2: Reduciendo el riesgo. Si logras negociar los ingredientes para que el sándwich te cueste $0,80 en vez de $1,00, tu margen sube a $1,20. Ahora tu punto de equilibrio baja a $100 ÷ $1,20 = ¡Solo necesitas 84 sándwiches para no perder!"
+    ],
+    "erroresFrecuentes": [
+      "Emprender sin saber cuántas unidades necesitas vender al mes para no quebrar.",
+      "Ignorar los costos fijos creyendo que si no vendes nada no gastas nada.",
+      "Confundir el punto de equilibrio en unidades con el punto de equilibrio en dinero."
+    ],
+    "preguntasGuia": [
+      "¿Cuántos días de trabajo te toma en tu proyecto alcanzar el punto de equilibrio de cada mes?",
+      "¿Qué estrategia es más fácil al inicio: subir los precios o reducir los costos fijos?",
+      "¿Qué sucede si en temporada de vacaciones las ventas caen por debajo de este punto?"
+    ],
+    "recursos": [
+      {
+        "tipo": "infografia",
+        "titulo": "Gráfica Didáctica: Visualizando el Punto de Equilibrio",
+        "url": "https://drive.google.com/file/d/punto-equilibrio-guia/view"
+      }
+    ],
+    "palabrasClave": [
+      "punto de equilibrio",
+      "costos fijos",
+      "costos variables",
+      "margen de contribucion",
+      "metas de venta",
+      "supervivencia"
+    ],
+    "dificultad": 2,
+    "fuentes": "Currículo Priorizado Bachillerato Ecuador · Contabilidad y Finanzas Básicas.",
+    "estado": "publicado",
+    "fecha": "2026-10-31T09:00:00-05:00"
+  },
+  {
+    "id": "tem_000004",
+    "unidadId": "uni_000002",
+    "titulo": "La partida doble y balance inicial del emprendimiento",
+    "orden": 1,
+    "objetivos": [
+      "Entender la ecuación contable básica: Activo = Pasivo + Patrimonio en situaciones cotidianas.",
+      "Identificar el origen y destino de cada recurso mediante el principio de la partida doble.",
+      "Elaborar un balance de apertura sencillo antes de inaugurar un proyecto productivo."
+    ],
+    "resumen": "La contabilidad no es para asustarse ni para llenar formularios aburridos; es simplemente la **historia contada en números** de lo que ocurre en tu emprendimiento.\n\nTodo negocio se apoya en una regla de oro descubierta hace siglos: **La Partida Doble**, que dice: *'No hay deudor sin acreedor, ni entrada sin salida'*. Cada vez que algo entra al negocio, viene de algún lugar.\n\nLa ecuación fundamental es:\n\n**ACTIVO = PASIVO + PATRIMONIO**\n\n- **ACTIVO**: Son todos los bienes y derechos que posee el emprendimiento (dinero en efectivo, inventario de bolos, congeladora, mercadería).\n- **PASIVO**: Son las deudas u obligaciones con terceras personas (préstamo con el banco, fiado en la tienda de frutas).\n- **PATRIMONIO**: Es lo que realmente pertenece a los dueños o socios (el dinero o herramientas que aportaron de su propio bolsillo).",
+    "ejemplos": [
+      "Caso Práctico 1: El inicio de Fruta Fría. Ana y Carlos inician su negocio. Ana aporta $60 en efectivo de sus ahorros. Carlos aporta una licuadora valorada en $40. Además, un tío les presta $50 en efectivo. ¿Cuál es su balance? Activo: $110 en dinero + $40 en licuadora = $150. Pasivo: Deuda con el tío = $50. Patrimonio: Aporte de Ana y Carlos = $100. ¡Se cumple perfecto: 150 = 50 + 100!",
+      "Caso Práctico 2: Pago de deuda. Cuando Fruta Fría paga los $50 al tío: disminuye su dinero en efectivo por $50 (Activo baja a $100) y su deuda queda en $0 (Pasivo se elimina). El patrimonio sigue intacto en $100."
+    ],
+    "erroresFrecuentes": [
+      "Mezclar el dinero del negocio con el dinero del bolsillo familiar de la casa.",
+      "Registrar solo las entradas de dinero y olvidar registrar las deudas adquiridas.",
+      "Creer que el patrimonio es únicamente dinero en efectivo guardado en un cajón."
+    ],
+    "preguntasGuia": [
+      "¿Por qué es fundamental separar una alcancía para el negocio y otra para gastos personales?",
+      "Si compras una máquina a crédito por $200, ¿cómo se mueven el activo y el pasivo?",
+      "¿Qué pasaría si tu pasivo llega a ser mayor que tu activo?"
+    ],
+    "recursos": [
+      {
+        "tipo": "infografia",
+        "titulo": "Diagrama Visual: La Balanza Contable para Emprendedores",
+        "url": "https://drive.google.com/file/d/balanza-contable-demo/view"
+      }
+    ],
+    "palabrasClave": [
+      "contabilidad",
+      "partida doble",
+      "activo",
+      "pasivo",
+      "patrimonio",
+      "balance inicial",
+      "ecuacion contable"
+    ],
+    "dificultad": 2,
+    "fuentes": "Normas Ecuatorianas de Contabilidad Básica · Módulo 1.º BGU.",
+    "estado": "publicado",
+    "fecha": "2026-10-31T09:00:00-05:00"
+  },
+  {
+    "id": "tem_000005",
+    "unidadId": "uni_000002",
+    "titulo": "Control de caja y libro diario sin complicaciones",
+    "orden": 2,
+    "objetivos": [
+      "Llevar un registro diario simple de ingresos y egresos de efectivo (flujo de caja).",
+      "Realizar el arqueo de caja al final de cada jornada de ventas para evitar descuadres.",
+      "Adoptar hábitos de disciplina y orden financiero desde el primer día de trabajo."
+    ],
+    "resumen": "¿Alguna vez has sentido que vendiste mucho durante el día, pero al anochecer abres la billetera y no sabes en qué se fue el dinero? ¡A todos los emprendedores novatos les pasa al menos una vez!\n\nPara evitar este dolor de cabeza, implementamos una herramienta súper fácil: **El Control de Caja Diaria**.\n\nEn un cuaderno o una hoja de cálculo registras únicamente 5 columnas:\n1. **Fecha y Hora**\n2. **Concepto o Detalle** (¿Qué vendiste o qué compraste?)\n3. **Ingreso (+)** (Entrada de dinero)\n4. **Egreso (−)** (Salida de dinero con su factura o recibo)\n5. **Saldo Disponible** (Cuánto dinero queda en caja)\n\nAl terminar el día hacemos el **Arqueo de Caja**: contamos las monedas y billetes físicos y deben coincidir al centavo con el saldo del cuaderno. ¡Así garantizas transparencia total entre socios!",
+    "ejemplos": [
+      "Caso Práctico 1: El registro del día viernes. Saldo inicial: $10,00 para dar cambio. 10:00 am: Venta de 20 jugos (+$20,00 → Saldo: $30,00). 11:30 am: Compra urgente de hielo (−$3,00 → Saldo: $27,00). 01:00 pm: Venta de 15 bolos (+$15,00 → Saldo: $42,00). Al cerrar la jornada, el dinero en mano debe ser exactamente $42,00.",
+      "Caso Práctico 2: El error del sobrante o faltante. Si al contar hay $40,00 en vez de $42,00, faltan $2,00. Revisamos los recibos y descubrimos que se compró una cinta de embalaje que no se anotó. ¡Todo gasto debe registrarse al instante!"
+    ],
+    "erroresFrecuentes": [
+      "Dejar las anotaciones de las ventas para la noche de memoria en vez de registrarlas en el momento.",
+      "Tomar dinero de la caja para comprar golosinas personales sin registrarlo como retiro de utilidades.",
+      "No guardar las notas de venta o facturas de los proveedores de insumos."
+    ],
+    "preguntasGuia": [
+      "¿Qué medidas tomarías si al final de la jornada de trabajo siempre faltan $1 o $2 en caja?",
+      "¿Por qué es importante tener una base fija de monedas y billetes pequeños al abrir cada mañana?",
+      "¿Cómo ayuda este registro sencillo a pedir un crédito o convencer a un socio inversionista?"
+    ],
+    "recursos": [
+      {
+        "tipo": "pdf",
+        "titulo": "Plantilla Imprimible: Hoja de Control de Caja Diaria para Emprendedores",
+        "url": "https://drive.google.com/file/d/plantilla-caja-diaria.pdf"
+      }
+    ],
+    "palabrasClave": [
+      "caja diaria",
+      "arqueo",
+      "flujo de efectivo",
+      "entradas",
+      "salidas",
+      "saldo",
+      "control financiero"
+    ],
+    "dificultad": 2,
+    "fuentes": "Guía Práctica del Emprendedor Joven · Ministerio de Educación Ecuador.",
+    "estado": "publicado",
+    "fecha": "2026-10-31T09:00:00-05:00"
+  },
+  {
+    "id": "tem_000006",
+    "unidadId": "uni_000003",
+    "titulo": "Identificación de necesidades y propuesta de valor",
+    "orden": 1,
+    "objetivos": [
+      "Identificar problemas y necesidades insatisfechas en tu colegio, barrio o comunidad.",
+      "Definir al cliente ideal (arquetipo) y entender qué le frustra y qué le alegra.",
+      "Crear una Propuesta de Valor única que diferencie tu producto de la competencia."
+    ],
+    "resumen": "Los emprendimientos más exitosos del mundo no empezaron inventando tecnología espacial, sino **escuchando atentamente a las personas** para resolver un problema cotidiano que nadie atendía bien.\n\nEn este tema aprendemos a observar nuestro entorno con ojos de emprendedor:\n\n- **¿Qué problema o dolor existe?** Por ejemplo: en los recreos hace un calor sofocante y las bebidas que venden están tibias o llenas de químicos artificiales.\n- **¿Quién sufre este problema?** Los estudiantes y docentes que buscan refrescarse de manera saludable.\n- **¿Cuál es tu Propuesta de Valor?** No vendes solo 'un bolo congelado'; vendes *refrescancia 100% natural con fruta de nuestra tierra, servida al instante y a un precio justo*.\n\nCuando tu producto resuelve un dolor real, ¡los clientes te buscan a ti sin que tengas que rogarles que te compren!",
+    "ejemplos": [
+      "Caso Práctico 1: El caso de Fruta Fría. Ana observó que sus compañeros compraban gaseosas con mucha azúcar porque no había opciones naturales. Creó bolos con pulpa pura de maracuyá y mora sin colorantes. Su propuesta de valor: 'Sabor natural de El Guabo que te llena de energía limpia'.",
+      "Caso Práctico 2: Servicio escolar de impresiones rápidas. Kevin notó que muchos estudiantes llegaban tarde por ir al cibercafé lejano a imprimir sus deberes. Habilitó un punto de impresión exprés por WhatsApp frente a la institución. Su valor no es el papel, sino ahorrarles 20 minutos valiosos."
+    ],
+    "erroresFrecuentes": [
+      "Enamorarse de la idea propia sin preguntarle primero a los posibles clientes si les interesa.",
+      "Creer que la única forma de competir es tener el precio más barato del mercado.",
+      "Diseñar productos pensando en lo que a ti te gusta, sin considerar los gustos del consumidor."
+    ],
+    "preguntasGuia": [
+      "¿Qué problema cotidiano en tu colegio o barrio te molesta todos los días y nadie ha intentado resolver?",
+      "¿Por qué un cliente pagaría $0,25 más por tu producto en comparación con la tienda de la esquina?",
+      "¿Cómo puedes validar si una necesidad es real antes de gastar dinero fabricando productos?"
+    ],
+    "recursos": [
+      {
+        "tipo": "infografia",
+        "titulo": "Lienzo de Propuesta de Valor: Del Dolor del Cliente a la Solución",
+        "url": "https://drive.google.com/file/d/lienzo-propuesta-valor/view"
+      }
+    ],
+    "palabrasClave": [
+      "necesidad",
+      "cliente ideal",
+      "propuesta de valor",
+      "innovacion",
+      "diferenciacion",
+      "problema y solucion"
+    ],
+    "dificultad": 1,
+    "fuentes": "Metodología Lean Startup aplicada a la educación secundaria · Gravity Innovación.",
+    "estado": "publicado",
+    "fecha": "2026-10-31T09:00:00-05:00"
+  },
+  {
+    "id": "tem_000007",
+    "unidadId": "uni_000003",
+    "titulo": "Producto Mínimo Viable (PMV): Aprende rápido y barato",
+    "orden": 2,
+    "objetivos": [
+      "Comprender el concepto del PMV para evitar riesgos financieros innecesarios.",
+      "Diseñar un prototipo funcional básico para probar la idea con usuarios reales.",
+      "Recibir retroalimentación constructiva para ajustar el producto antes del lanzamiento masivo."
+    ],
+    "resumen": "El mayor error de los emprendedores principiantes es gastarse todos los ahorros o endeudarse para producir cientos de unidades de algo que todavía no saben si a la gente le gustará.\n\nPara innovar con inteligencia usamos el concepto de **Producto Mínimo Viable (PMV)**: es la versión más sencilla, rápida y económica de tu idea que te permite interactuar con clientes reales y aprender de ellos.\n\nEl ciclo del PMV es:\n\n**CREAR (versión básica) → MEDIR (observar qué dicen los clientes) → APRENDER (mejorar el producto)**\n\nNo busques la perfección en el día uno; busca aprender qué sabores, tamaños o precios prefiere tu público.",
+    "ejemplos": [
+      "Caso Práctico 1: El primer lote de prueba. En vez de comprar 100 litros de leche y congeladoras gigantes, el equipo de Fruta Fría preparó solo 15 bolos de prueba de tres sabores diferentes y se los dio a probar a profesores y compañeros a cambio de una pequeña encuesta de opinión. Descubrieron que el sabor maracuyá necesitaba un toque menos de azúcar y que el tamaño era perfecto.",
+      "Caso Práctico 2: El menú digital en PDF. Dos estudiantes querían crear una app compleja de pedidos. En vez de programar meses, crearon un menú en imagen y recibieron pedidos por WhatsApp durante 2 semanas. Al comprobar que sí había demanda real, buscaron apoyo para desarrollar la app."
+    ],
+    "erroresFrecuentes": [
+      "Esperar meses a que el producto esté 'perfecto' y perder la oportunidad de mercado.",
+      "Ofrecer un producto de tan mala calidad que arruine la reputación inicial del negocio.",
+      "Ignorar las críticas sinceras de los primeros clientes y negarse a cambiar la receta o servicio."
+    ],
+    "preguntasGuia": [
+      "¿Cuál sería la versión más pequeña y económica de tu idea que podrías probar esta misma semana?",
+      "¿Cómo reaccionas cuando un cliente te dice que tu producto no le gustó y cómo lo aprovechas?",
+      "¿Por qué equivocarse rápido y barato es el mayor superpoder de un emprendedor joven?"
+    ],
+    "recursos": [
+      {
+        "tipo": "video",
+        "titulo": "Video Caso de Estudio: Cómo los grandes proyectos nacieron de un prototipo",
+        "url": "https://drive.google.com/file/d/pmv-prototipos-video/view"
+      }
+    ],
+    "palabrasClave": [
+      "pmv",
+      "producto minimo viable",
+      "prototipo",
+      "feedback",
+      "clientes",
+      "aprendizaje validado",
+      "mejora continua"
+    ],
+    "dificultad": 2,
+    "fuentes": "Metodología Lean Startup · Ecosistema Emprendedor Juvenil.",
+    "estado": "publicado",
+    "fecha": "2026-10-31T09:00:00-05:00"
+  }
+]

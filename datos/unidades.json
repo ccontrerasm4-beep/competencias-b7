@@ -1,0 +1,26 @@
+[
+  {
+    "id": "uni_000001",
+    "asignaturaId": "asi_000001",
+    "titulo": "Conceptos financieros básicos para emprender",
+    "orden": 1,
+    "visible": true,
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "uni_000002",
+    "asignaturaId": "asi_000001",
+    "titulo": "Contabilidad y control del dinero en tu negocio",
+    "orden": 2,
+    "visible": true,
+    "fecha": "2026-10-31T09:00:00-05:00"
+  },
+  {
+    "id": "uni_000003",
+    "asignaturaId": "asi_000001",
+    "titulo": "Innovación, propuesta de valor y tu primer cliente",
+    "orden": 3,
+    "visible": true,
+    "fecha": "2026-10-31T09:00:00-05:00"
+  }
+]

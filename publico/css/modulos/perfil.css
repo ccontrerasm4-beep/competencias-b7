@@ -1,0 +1,172 @@
+/* Estilos específicos de la página de perfil */
+.perfil-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.perfil-avatar-bloque {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-l);
+  margin-bottom: var(--espacio-m);
+}
+
+.perfil-avatar-img {
+  width: 96px;
+  height: 96px;
+  border-radius: var(--radio-completo);
+  object-fit: cover;
+  border: 3px solid var(--color-borde);
+  background-color: var(--color-fondo);
+}
+
+.perfil-avatar-placeholder {
+  width: 96px;
+  height: 96px;
+  border-radius: var(--radio-completo);
+  background-color: var(--color-primario);
+  color: var(--color-texto-inverso);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--tamano-2xl);
+  font-weight: var(--peso-negrita);
+  border: 3px solid var(--color-borde);
+  user-select: none;
+}
+
+@media (max-width: 540px) {
+  .perfil-avatar-bloque {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Gamificación, vitrina de insignias y certificado de cumplimiento */
+.logros-puntos-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  background-color: var(--color-info-fondo);
+  border: 1px solid var(--color-borde);
+  padding: var(--espacio-xs) var(--espacio-m);
+  border-radius: var(--radio-completo);
+}
+
+.logros-puntos-badge__icono {
+  font-size: var(--tamano-xl);
+  line-height: 1;
+}
+
+.logros-puntos-badge__valor {
+  font-size: var(--tamano-xl);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+}
+
+.logros-puntos-badge__etiqueta {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  margin-left: 2px;
+}
+
+.insignias-vitrina-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--espacio-m);
+}
+
+.insignia-tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--espacio-xs);
+  padding: var(--espacio-m);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  background-color: var(--color-superficie);
+  transition: transform var(--transicion), box-shadow var(--transicion);
+}
+
+.insignia-tarjeta:hover,
+.insignia-tarjeta:focus-visible {
+  box-shadow: var(--sombra-1);
+  outline: 2px solid var(--color-foco);
+  outline-offset: 2px;
+}
+
+.insignia-tarjeta__icono {
+  font-size: var(--tamano-2xl);
+  line-height: 1;
+  margin-bottom: var(--espacio-xs);
+}
+
+.insignia-tarjeta__nombre {
+  font-size: var(--tamano-s);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto);
+  margin: 0;
+}
+
+.insignia-tarjeta__fecha {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  margin: 0;
+}
+
+.insignia-tarjeta__condicion {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  margin: 0;
+}
+
+.insignia-tarjeta--obtenida {
+  border-color: var(--color-acento);
+}
+
+.insignia-tarjeta--bloqueada {
+  filter: grayscale(1);
+  opacity: 0.65;
+  background-color: var(--color-fondo);
+  border-style: dashed;
+}
+
+.insignia-tarjeta--bloqueada .insignia-tarjeta__icono {
+  opacity: 0.8;
+}
+
+.certificado-condicion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.certificado-condicion__cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: var(--tamano-s);
+  gap: var(--espacio-s);
+}
+
+.certificado-condicion__nombre {
+  color: var(--color-texto);
+  font-weight: var(--peso-medio);
+}
+
+.certificado-condicion__check {
+  color: var(--color-exito);
+  font-weight: var(--peso-negrita);
+}
+
+.certificado-condicion__valores {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  white-space: nowrap;
+}
+
+

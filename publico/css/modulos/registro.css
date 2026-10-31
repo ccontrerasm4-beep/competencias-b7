@@ -1,0 +1,25 @@
+/* Estilos específicos de la página de registro */
+.auth-tarjeta {
+  max-width: 500px;
+  margin: var(--espacio-l) auto;
+}
+
+.auth-enlace-alternativo {
+  text-align: center;
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+  margin-top: var(--espacio-m);
+}
+
+.campo--casilla {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--espacio-s);
+}
+
+.campo--casilla input[type="checkbox"] {
+  width: auto;
+  min-height: auto;
+  cursor: pointer;
+}
+

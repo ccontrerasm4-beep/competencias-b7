@@ -1,0 +1,34 @@
+[
+  {
+    "titulo": "Noticia Borrador Secreta",
+    "resumen": "Solo visible para docentes y admin",
+    "cuerpo": "Contenido secreto",
+    "categoria": "Académica",
+    "estado": "borrador",
+    "destacada": false,
+    "autorId": "usu_000002",
+    "id": "not_000001",
+    "fecha": "2026-10-30T13:40:23.560Z"
+  },
+  {
+    "titulo": "Lanzamiento Misión Emprende",
+    "resumen": "Inicia el proyecto áulico con bolos de frutas en El Guabo.",
+    "cuerpo": "Todo el contenido de la misión.",
+    "categoria": "Institucional",
+    "estado": "publicado",
+    "destacada": true,
+    "autorId": "usu_000002",
+    "fechaPublicacion": "2026-10-30T13:40:23.570Z",
+    "id": "not_000002",
+    "fecha": "2026-10-30T13:40:23.570Z"
+  },
+  {
+    "titulo": "Noticia de prueba 1793381541625",
+    "cuerpo": "Contenido de prueba",
+    "estado": "publicado",
+    "autorId": "usu_000002",
+    "id": "not_000003",
+    "fecha": "2026-10-30T17:32:21.625Z",
+    "fechaPublicacion": "2026-10-30T17:32:21.629Z"
+  }
+]

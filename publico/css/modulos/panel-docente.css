@@ -1,0 +1,248 @@
+/* Estilos específicos del Panel Docente */
+.panel-docente-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+  padding-block: var(--espacio-l);
+}
+
+.panel-docente-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--espacio-m);
+  flex-wrap: wrap;
+}
+
+.panel-docente-selector {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+  min-width: 280px;
+  max-width: 420px;
+  flex: 1;
+}
+
+.panel-docente-selector label {
+  font-size: var(--tamano-s);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto);
+}
+
+/* Tabla de estudiantes y ordenamiento */
+.th-ordenable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color var(--transicion);
+}
+
+.th-ordenable:hover,
+.th-ordenable:focus-visible {
+  background-color: var(--color-borde);
+  outline: 2px solid var(--color-foco);
+  outline-offset: -2px;
+}
+
+.th-ordenable__contenido {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.icono-orden {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+}
+
+.th-ordenable[aria-sort="ascending"] .icono-orden,
+.th-ordenable[aria-sort="descending"] .icono-orden {
+  color: var(--color-acento);
+  font-weight: var(--peso-negrita);
+}
+
+/* Filas interactivas y resaltado de alertas */
+.tabla tbody tr.fila-estudiante {
+  cursor: pointer;
+  transition: background-color var(--transicion);
+}
+
+.tabla tbody tr.fila-alerta td {
+  background-color: var(--color-advertencia-fondo);
+}
+
+.tabla tbody tr.fila-alerta td:first-child {
+  border-left: 4px solid var(--color-advertencia);
+  font-weight: var(--peso-medio);
+}
+
+.tabla tbody tr.fila-alerta:hover td {
+  background-color: #ffedd5;
+}
+
+.insignia-alerta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-2xs);
+  padding: 2px var(--espacio-s);
+  border-radius: var(--radio-completo);
+  background-color: var(--color-advertencia);
+  color: var(--color-texto-inverso);
+  font-size: var(--tamano-xs);
+  font-weight: var(--peso-negrita);
+}
+
+.btn-estudiante-nombre {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--color-primario);
+  font-weight: var(--peso-seminegrita);
+  text-decoration: underline;
+  text-align: left;
+  cursor: pointer;
+}
+
+.btn-estudiante-nombre:hover {
+  color: var(--color-acento);
+}
+
+/* Contenedor del gráfico de barras */
+.grafico-contenedor {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  max-height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grafico-contenedor canvas {
+  width: 100% !important;
+  max-height: 320px;
+}
+
+/* Modal de detalle de estudiante */
+.modal-estudiante {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+  max-width: 680px;
+  width: 100%;
+}
+
+.modal-estudiante-metricas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: var(--espacio-s);
+}
+
+.modal-estudiante-caja {
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-s);
+  text-align: center;
+}
+
+.btn-chip-alerta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-2xs);
+  padding: 3px var(--espacio-s);
+  border-radius: var(--radio-completo);
+  font-size: var(--tamano-xs);
+  font-weight: var(--peso-negrita);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform var(--transicion), box-shadow var(--transicion);
+}
+
+.btn-chip-alerta:hover,
+.btn-chip-alerta:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: var(--sombra-1);
+  outline: 2px solid var(--color-foco);
+  outline-offset: 1px;
+}
+
+.btn-chip-alerta--activa {
+  background-color: var(--color-advertencia);
+  color: var(--color-texto-inverso);
+  border-color: var(--color-advertencia);
+}
+
+.btn-chip-alerta--ok {
+  background-color: var(--color-exito-fondo);
+  color: var(--color-exito);
+  border-color: var(--color-borde);
+}
+
+.alerta-tarjeta-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+  padding: var(--espacio-m);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  background-color: var(--color-superficie);
+}
+
+.alerta-tarjeta-item--activa {
+  border-left: 4px solid var(--color-advertencia);
+  background-color: var(--color-advertencia-fondo);
+}
+
+.alerta-tarjeta-item--atendida {
+  border-left: 4px solid var(--color-exito);
+  opacity: 0.85;
+}
+
+.alerta-tarjeta-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-xs);
+}
+
+.alerta-tarjeta-titulo {
+  font-size: var(--tamano-s);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-primario);
+  margin: 0;
+}
+
+.alerta-tarjeta-desc {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto);
+  margin: 0;
+  line-height: var(--interlineado-base);
+}
+
+.modal-estudiante-caja__val {
+  font-size: var(--tamano-l);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  display: block;
+  line-height: 1.2;
+}
+
+.modal-estudiante-caja__lbl {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  display: block;
+  margin-top: 2px;
+}
+
+@media (max-width: 600px) {
+  .panel-docente-cabecera {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .panel-docente-selector {
+    max-width: 100%;
+  }
+}
+

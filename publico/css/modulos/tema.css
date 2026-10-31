@@ -1,0 +1,311 @@
+/* Estilos de la vista de estudio de tema (dinámico, interactivo y humanizado) */
+.tema-migas {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-xs);
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+  margin-bottom: var(--espacio-m);
+}
+
+.tema-migas a {
+  color: var(--color-primario);
+  text-decoration: none;
+  font-weight: var(--peso-medio);
+}
+
+.tema-migas a:hover {
+  text-decoration: underline;
+}
+
+.tema-cabecera-bloque {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--espacio-m);
+  margin-bottom: var(--espacio-xl);
+  padding: var(--espacio-l);
+  background: linear-gradient(135deg, var(--color-superficie) 0%, var(--color-fondo) 100%);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  box-shadow: var(--sombra-1);
+}
+
+.tema-cabecera-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-s);
+  margin-top: var(--espacio-xs);
+}
+
+.tema-meta-pildora {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-2xs);
+  font-size: var(--tamano-xs);
+  padding: var(--espacio-2xs) var(--espacio-s);
+  border-radius: var(--radio-completo);
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  color: var(--color-texto-suave);
+  font-weight: var(--peso-medio);
+}
+
+.tema-seccion-bloque {
+  margin-bottom: var(--espacio-xl);
+  border-radius: var(--radio-l);
+  border: 1px solid var(--color-borde);
+  box-shadow: var(--sombra-1);
+  padding: var(--espacio-l);
+  background-color: var(--color-superficie);
+}
+
+.tema-seccion-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-s);
+  margin-bottom: var(--espacio-m);
+}
+
+.tema-seccion-titulo {
+  color: var(--color-primario);
+  font-size: var(--tamano-l);
+  font-weight: var(--peso-negrita);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+/* Objetivos con checks interactivos */
+.tema-objetivos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tema-objetivo-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espacio-s);
+  padding: var(--espacio-s) var(--espacio-m);
+  background-color: var(--color-fondo);
+  border-radius: var(--radio-m);
+  border: 1px solid var(--color-borde);
+  font-size: var(--tamano-m);
+  line-height: var(--interlineado-base);
+}
+
+.tema-objetivo-icono {
+  color: var(--color-exito);
+  font-weight: var(--peso-negrita);
+  flex-shrink: 0;
+  font-size: var(--tamano-l);
+}
+
+/* Cuerpo de la explicación del tema */
+.tema-resumen-cuerpo {
+  font-size: var(--tamano-m);
+  line-height: var(--interlineado-relajado);
+  color: var(--color-texto);
+}
+
+.tema-resumen-cuerpo p {
+  margin-bottom: var(--espacio-m);
+}
+
+.tema-resumen-cuerpo ul {
+  margin-bottom: var(--espacio-m);
+  padding-left: var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.tema-resumen-cuerpo li {
+  line-height: var(--interlineado-base);
+}
+
+.tema-resumen-cuerpo strong {
+  color: var(--color-primario);
+}
+
+/* Tarjeta destacada de fórmula pedagógica */
+.tema-formula-box {
+  background: linear-gradient(135deg, rgba(0, 51, 102, 0.05) 0%, rgba(255, 102, 0, 0.08) 100%);
+  border-left: 4px solid var(--color-acento);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-m);
+  margin: var(--espacio-m) 0;
+  font-family: monospace;
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+}
+
+/* Ejemplos y Casos Prácticos */
+.ejemplos-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+}
+
+.ejemplo-item {
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-left: 5px solid var(--color-primario);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-m) var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+  transition: transform var(--transicion), box-shadow var(--transicion);
+}
+
+.ejemplo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-2);
+}
+
+.ejemplo-item__cabecera {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+}
+
+.ejemplo-item__contenido {
+  font-size: var(--tamano-m);
+  line-height: var(--interlineado-base);
+  color: var(--color-texto);
+}
+
+/* Errores comunes */
+.tema-errores-card {
+  border-left: 5px solid var(--color-peligro, #e74c3c);
+  background-color: var(--color-superficie);
+}
+
+.tema-error-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espacio-s);
+  padding: var(--espacio-s) var(--espacio-m);
+  background-color: rgba(231, 76, 60, 0.06);
+  border: 1px solid rgba(231, 76, 60, 0.2);
+  border-radius: var(--radio-m);
+  font-size: var(--tamano-s);
+  line-height: var(--interlineado-base);
+}
+
+.tema-error-icono {
+  flex-shrink: 0;
+  font-size: var(--tamano-m);
+}
+
+/* Preguntas socráticas */
+.tema-preguntas-card {
+  border-left: 5px solid var(--color-acento);
+  background: linear-gradient(135deg, var(--color-superficie) 0%, rgba(255, 102, 0, 0.04) 100%);
+}
+
+.preguntas-socraticas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--espacio-m);
+}
+
+.pregunta-socratica-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espacio-s);
+  padding: var(--espacio-m);
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  box-shadow: var(--sombra-1);
+}
+
+.pregunta-socratica-item__num {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radio-completo);
+  background-color: var(--color-primario);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--tamano-xs);
+  font-weight: var(--peso-negrita);
+  flex-shrink: 0;
+}
+
+.pregunta-socratica-item__texto {
+  font-size: var(--tamano-s);
+  line-height: var(--interlineado-base);
+  color: var(--color-texto);
+}
+
+/* Recursos */
+.recursos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--espacio-m);
+}
+
+.recurso-tarjeta {
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+  transition: transform var(--transicion);
+}
+
+.recurso-tarjeta:hover {
+  transform: translateY(-2px);
+}
+
+.video-contenedor {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-width: 640px;
+  border-radius: var(--radio-m);
+  overflow: hidden;
+  background-color: #000;
+}
+
+.video-contenedor iframe,
+.video-contenedor video {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Práctica interactiva */
+.practica-bloque {
+  background: linear-gradient(135deg, var(--color-superficie) 0%, rgba(0, 51, 102, 0.05) 100%);
+  border: 2px dashed var(--color-primario);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-l);
+}
+
+@media (max-width: 640px) {
+  .tema-cabecera-bloque {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .preguntas-socraticas-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,267 @@
+[
+  {
+    "id": "glo_000001",
+    "temaId": "tem_000001",
+    "termino": "INGRESO",
+    "definicion": "Valor recibido u obtenido por las ventas de los bolos en el caso didáctico.",
+    "pista": "Empieza por I; es la entrada asociada a vender.",
+    "retroalimentacion": "Correcto: el ingreso proviene de las ventas, antes de restar costos y gastos.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000002",
+    "temaId": "tem_000001",
+    "termino": "VENTAS",
+    "definicion": "Operaciones mediante las cuales se entregan bolos a cambio de un precio.",
+    "pista": "Son las transacciones que generan ingresos del negocio.",
+    "retroalimentacion": "Correcto: las ventas se relacionan con cantidad vendida y precio unitario.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000003",
+    "temaId": "tem_000001",
+    "termino": "COSTOS",
+    "definicion": "Valores de los recursos consumidos en la producción de los bolos.",
+    "pista": "Incluyen fruta, leche y fundas usadas.",
+    "retroalimentacion": "Correcto: los costos del lote se restan de los ingresos para calcular el margen.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000004",
+    "temaId": "tem_000001",
+    "termino": "PRECIO",
+    "definicion": "Cantidad monetaria que se cobra por cada bolo vendido.",
+    "pista": "En el reto 2, cada bolo cuesta USD 1 para el cliente.",
+    "retroalimentacion": "Correcto: precio por cantidad vendida permite hallar ingresos.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000005",
+    "temaId": "tem_000001",
+    "termino": "INSUMO",
+    "definicion": "Material que se utiliza para elaborar un producto, como la fruta.",
+    "pista": "Es un recurso que se consume mientras se prepara el bolo.",
+    "retroalimentacion": "Correcto: los insumos consumidos forman parte del costo de producción.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000006",
+    "temaId": "tem_000001",
+    "termino": "MARGEN",
+    "definicion": "Diferencia entre ingresos y costos de producción en los ejercicios.",
+    "pista": "Se obtiene al restar el costo total del ingreso total.",
+    "retroalimentacion": "Correcto: margen no equivale automáticamente a ganancia neta.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000007",
+    "temaId": "tem_000001",
+    "termino": "UNIDAD",
+    "definicion": "Cada bolo considerado individualmente al contar o vender.",
+    "pista": "Cuarenta bolos equivalen a cuarenta de estas.",
+    "retroalimentacion": "Correcto: la cantidad de unidades permite calcular ingreso y costo unitario.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000008",
+    "temaId": "tem_000001",
+    "termino": "LOTE",
+    "definicion": "Conjunto de productos elaborados en una misma tanda de producción.",
+    "pista": "El reto 2 fabrica cuarenta bolos en una misma tanda.",
+    "retroalimentacion": "Correcto: el costo del lote se divide entre sus unidades para hallar el costo unitario.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000009",
+    "temaId": "tem_000001",
+    "termino": "TOTAL",
+    "definicion": "Cantidad completa obtenida al sumar o calcular un conjunto.",
+    "pista": "No es una parte; reúne toda la cantidad del caso.",
+    "retroalimentacion": "Correcto: ingreso total y costo total deben distinguirse.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000010",
+    "temaId": "tem_000001",
+    "termino": "DINERO",
+    "definicion": "Medio monetario con el que se realizan las compras y ventas.",
+    "pista": "Se expresa aquí en dólares estadounidenses.",
+    "retroalimentacion": "Correcto: el dinero aparece como entrada y salida en el registro del negocio.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000011",
+    "temaId": "tem_000001",
+    "termino": "REGISTRO",
+    "definicion": "Anotación ordenada de ventas, costos y cálculos del negocio.",
+    "pista": "Tabla donde se deja evidencia de las operaciones.",
+    "retroalimentacion": "Correcto: registrar permite comparar cifras y revisar decisiones.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000012",
+    "temaId": "tem_000001",
+    "termino": "PRODUCCIÓN",
+    "definicion": "Proceso de elaborar productos, como los bolos de fruta.",
+    "pista": "Ocurre antes de entregar los bolos al cliente.",
+    "retroalimentacion": "Correcto: la producción consume recursos que generan costos.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000013",
+    "temaId": "tem_000002",
+    "termino": "GASTOS",
+    "definicion": "Desembolsos operativos como publicidad o alquiler, separados aquí de los costos directos.",
+    "pista": "Pueden ocurrir al promocionar o mantener el negocio.",
+    "retroalimentacion": "Correcto: el gasto operativo se distingue de los ingredientes consumidos.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000014",
+    "temaId": "tem_000002",
+    "termino": "INVERSIÓN",
+    "definicion": "Asignación de recursos para adquirir bienes o capacidades de utilidad futura.",
+    "pista": "Puede ser la compra de una congeladora.",
+    "retroalimentacion": "Correcto: una inversión puede beneficiar múltiples jornadas.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000015",
+    "temaId": "tem_000002",
+    "termino": "CAPITAL",
+    "definicion": "Recursos de dinero o bienes disponibles para poner en marcha o sostener el negocio.",
+    "pista": "Ayuda a financiar equipos y operaciones.",
+    "retroalimentacion": "Correcto: el capital permite financiar necesidades del emprendimiento.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000016",
+    "temaId": "tem_000002",
+    "termino": "EQUIPO",
+    "definicion": "Conjunto de herramientas o aparatos utilizados en la actividad del negocio.",
+    "pista": "Una congeladora forma parte de este conjunto.",
+    "retroalimentacion": "Correcto: ciertos equipos se utilizan por más de una jornada.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000017",
+    "temaId": "tem_000002",
+    "termino": "MÁQUINA",
+    "definicion": "Aparato usado para realizar o facilitar procesos de trabajo.",
+    "pista": "Puede conservar o elaborar alimentos según su función.",
+    "retroalimentacion": "Correcto: un equipo duradero no se confunde automáticamente con un ingrediente consumido.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000018",
+    "temaId": "tem_000002",
+    "termino": "ALQUILER",
+    "definicion": "Pago por utilizar temporalmente un local u otro bien ajeno.",
+    "pista": "Se paga para usar un espacio que no se compra.",
+    "retroalimentacion": "Correcto: el alquiler del puesto puede ser un gasto operativo del caso.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000019",
+    "temaId": "tem_000002",
+    "termino": "PUBLICIDAD",
+    "definicion": "Acciones pagadas o recursos usados para dar a conocer un producto.",
+    "pista": "Un anuncio para atraer compradores es un ejemplo.",
+    "retroalimentacion": "Correcto: promocionar bolos ayuda a vender y puede representar un gasto.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000020",
+    "temaId": "tem_000002",
+    "termino": "AHORRO",
+    "definicion": "Parte del dinero que se reserva para utilizarla en el futuro.",
+    "pista": "No se gasta ahora; se guarda para más adelante.",
+    "retroalimentacion": "Correcto: ahorrar puede apoyar una futura inversión.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000021",
+    "temaId": "tem_000002",
+    "termino": "ACTIVO",
+    "definicion": "Recurso controlado por el negocio que puede brindar beneficios económicos.",
+    "pista": "Una congeladora duradera es un ejemplo de este recurso.",
+    "retroalimentacion": "Correcto: un equipo adquirido puede constituir un activo.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000022",
+    "temaId": "tem_000002",
+    "termino": "COMPRA",
+    "definicion": "Operación de adquirir un bien o servicio entregando una contraprestación.",
+    "pista": "Su categoría depende de qué se adquiere y para qué.",
+    "retroalimentacion": "Correcto: comprar fruta, pagar un anuncio y comprar equipo son situaciones diferentes.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000023",
+    "temaId": "tem_000002",
+    "termino": "NEGOCIO",
+    "definicion": "Actividad organizada para ofrecer productos o servicios a clientes.",
+    "pista": "Fruta Fría es un ejemplo ficticio de esta actividad.",
+    "retroalimentacion": "Correcto: un negocio registra ingresos, costos, gastos e inversiones.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  },
+  {
+    "id": "glo_000024",
+    "temaId": "tem_000002",
+    "termino": "MEJORA",
+    "definicion": "Cambio que busca elevar la calidad o capacidad de funcionamiento.",
+    "pista": "Una inversión puede permitir realizarla.",
+    "retroalimentacion": "Correcto: la mejora debe justificarse según una necesidad y el beneficio esperado.",
+    "origen": "docente",
+    "estado": "aprobado",
+    "fecha": "2026-10-29T00:00:00-05:00"
+  }
+]
+

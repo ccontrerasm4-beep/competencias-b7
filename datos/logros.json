@@ -1,0 +1,25 @@
+[
+  {
+    "usuarioId": "usu_000002",
+    "puntos": 1,
+    "insignias": [],
+    "nivelQuiz": {},
+    "id": "log_000001",
+    "fecha": "2026-10-31T00:28:28.997Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "puntos": 45,
+    "insignias": [
+      {
+        "id": "nivel-1",
+        "fecha": "2026-10-31T01:09:12.962Z"
+      }
+    ],
+    "nivelQuiz": {
+      "tem_000001": 1
+    },
+    "id": "log_000002",
+    "fecha": "2026-10-31T01:09:12.953Z"
+  }
+]

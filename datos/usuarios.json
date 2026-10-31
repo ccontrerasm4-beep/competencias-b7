@@ -1,0 +1,137 @@
+[
+  {
+    "id": "usu_000001",
+    "nombre": "Cinthya",
+    "apellido": "Contreras",
+    "correo": "admin@demo.ec",
+    "rol": "admin",
+    "activo": true,
+    "foto": "/recursos/subidas/26b536c0be4981f3cb4447453f167379.png",
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  },
+  {
+    "id": "usu_000002",
+    "nombre": "Felipe",
+    "apellido": "Arévalo",
+    "correo": "docente1@demo.ec",
+    "rol": "docente",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  },
+  {
+    "id": "usu_000003",
+    "nombre": "Carlos",
+    "apellido": "Mendoza",
+    "correo": "docente2@demo.ec",
+    "rol": "docente",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  },
+  {
+    "id": "usu_000004",
+    "nombre": "Ana",
+    "apellido": "López",
+    "correo": "estudiante1@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  },
+  {
+    "id": "usu_000005",
+    "nombre": "Bryan",
+    "apellido": "Morales",
+    "correo": "estudiante2@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  },
+  {
+    "id": "usu_000006",
+    "nombre": "Carmen",
+    "apellido": "Delgado",
+    "correo": "estudiante3@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  },
+  {
+    "id": "usu_000007",
+    "nombre": "David",
+    "apellido": "Pauta",
+    "correo": "estudiante4@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  },
+  {
+    "id": "usu_000008",
+    "nombre": "Elena",
+    "apellido": "Rivas",
+    "correo": "estudiante5@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  },
+  {
+    "id": "usu_000009",
+    "nombre": "Fernando",
+    "apellido": "Vega",
+    "correo": "estudiante6@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-29T00:00:00-05:00"
+    },
+    "fecha": "2026-10-29T00:00:00-05:00",
+    "claveHash": "$2a$10$1QMR0TJpeV/PlIoRYcwbMunSWWEUeThzAxrxeq.CkLFiWasUmYYze"
+  }
+]

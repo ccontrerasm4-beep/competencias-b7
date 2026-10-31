@@ -1,0 +1,79 @@
+[
+  {
+    "token": "2b74e0dd30f636aad9845c2339dde90cc747fe1b11a0d9521ac35160d06f642f",
+    "usuarioId": "usu_000002",
+    "expira": "2026-10-31T22:17:56.482Z",
+    "id": "ses_000001",
+    "fecha": "2026-10-31T14:17:56.483Z"
+  },
+  {
+    "token": "714c40d1154c09fd670c98239d0e99fdcd04d5059f5d4e31083c05a3db9deb0f",
+    "usuarioId": "usu_000002",
+    "expira": "2026-10-31T22:32:57.609Z",
+    "id": "ses_000003",
+    "fecha": "2026-10-31T14:32:57.610Z"
+  },
+  {
+    "token": "68ee574ef2a3a0a8d8451fde6a333a459b1d79ca8d32b1afffdd5c083e464015",
+    "usuarioId": "usu_000004",
+    "expira": "2026-10-31T22:35:06.074Z",
+    "id": "ses_000004",
+    "fecha": "2026-10-31T14:35:06.075Z"
+  },
+  {
+    "token": "cdd6070e09edfb4b80f730ab043054ea0e49e1584b8b6ec20db54edaa2d576dc",
+    "usuarioId": "usu_000004",
+    "expira": "2026-10-31T22:37:50.419Z",
+    "id": "ses_000005",
+    "fecha": "2026-10-31T14:37:50.419Z"
+  },
+  {
+    "token": "8e6466f3edfd747c5deda57a541cd2d66d290fed776f184614a5be305b068f21",
+    "usuarioId": "usu_000004",
+    "expira": "2026-10-31T22:44:50.842Z",
+    "id": "ses_000006",
+    "fecha": "2026-10-31T14:44:50.843Z"
+  },
+  {
+    "token": "55becce5fed78e409bc84f051d1c2067359f5ff29d6fdb77edda6771c04b1f61",
+    "usuarioId": "usu_000001",
+    "expira": "2026-11-01T04:12:07.679Z",
+    "id": "ses_000007",
+    "fecha": "2026-10-31T20:12:07.679Z"
+  },
+  {
+    "token": "1c8fc7ac5bc5814b813ad2bda296c0ff7452da27dbe3209b89791648290cdc03",
+    "usuarioId": "usu_000002",
+    "expira": "2026-11-01T04:12:07.802Z",
+    "id": "ses_000008",
+    "fecha": "2026-10-31T20:12:07.802Z"
+  },
+  {
+    "token": "452997d4a0384122e6329bb816cf1261776a5bce12a78a1498fd630a77181702",
+    "usuarioId": "usu_000004",
+    "expira": "2026-11-01T04:12:07.904Z",
+    "id": "ses_000009",
+    "fecha": "2026-10-31T20:12:07.905Z"
+  },
+  {
+    "token": "b3d55631de2d3bdb8a5ecdc51c6992b60138af3c5b354e1ea1cd2fe7a72adb3a",
+    "usuarioId": "usu_000001",
+    "expira": "2026-11-01T04:16:00.781Z",
+    "id": "ses_000010",
+    "fecha": "2026-10-31T20:16:00.783Z"
+  },
+  {
+    "token": "908d87ba6c99c7359309ba987aa9ad337ef1cd9a1649276770f4bf5651d5085e",
+    "usuarioId": "usu_000002",
+    "expira": "2026-11-01T04:16:00.899Z",
+    "id": "ses_000011",
+    "fecha": "2026-10-31T20:16:00.899Z"
+  },
+  {
+    "token": "0c0bf40c1f41fda3231c36da65e20256e2af70df562f8c0e09a7fb52ad54b4ae",
+    "usuarioId": "usu_000004",
+    "expira": "2026-11-01T04:16:01.001Z",
+    "id": "ses_000012",
+    "fecha": "2026-10-31T20:16:01.002Z"
+  }
+]

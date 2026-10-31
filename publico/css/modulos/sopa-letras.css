@@ -1,0 +1,220 @@
+/* Módulo Sopa de Letras — Estilos */
+
+.sopa-cabecera {
+  margin-bottom: var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.sopa-tema-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+}
+
+.sopa-panel-control {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m) var(--espacio-l);
+  margin-bottom: var(--espacio-l);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+}
+
+.sopa-estadisticas {
+  display: flex;
+  gap: var(--espacio-l);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sopa-metrica {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sopa-metrica__etiqueta {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.sopa-metrica__valor {
+  font-size: var(--tamano-l);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+}
+
+.sopa-dificultades {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.sopa-dificultad-btn {
+  font-size: var(--tamano-xs);
+  padding: var(--espacio-xs) var(--espacio-s);
+  border-radius: var(--radio-m);
+}
+
+/* Área principal de juego: grilla + lista de palabras */
+.sopa-juego-contenedor {
+  display: grid;
+  grid-template-columns: auto 260px;
+  gap: var(--espacio-xl);
+  align-items: start;
+  margin-bottom: var(--espacio-xl);
+}
+
+@media (max-width: 820px) {
+  .sopa-juego-contenedor {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+/* Grilla de la sopa */
+.sopa-grilla-envoltorio {
+  background-color: var(--color-superficie);
+  border: 2px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+  display: inline-block;
+}
+
+.sopa-grilla {
+  display: grid;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  gap: 2px;
+  background-color: var(--color-borde);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  overflow: hidden;
+}
+
+.sopa-celda {
+  width: 36px;
+  height: 36px;
+  background-color: var(--color-superficie);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--fuente-base);
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto);
+  cursor: pointer;
+  transition: background-color var(--transicion), color var(--transicion);
+}
+
+@media (max-width: 480px) {
+  .sopa-celda {
+    width: 28px;
+    height: 28px;
+    font-size: var(--tamano-s);
+  }
+}
+
+/* Resaltado en vivo durante el arrastre */
+.sopa-celda--seleccionada {
+  background-color: rgba(255, 127, 39, 0.25) !important;
+  color: var(--color-primario) !important;
+  font-weight: var(--peso-negrita);
+}
+
+/* Celda de palabra encontrada */
+.sopa-celda--encontrada {
+  background-color: var(--color-exito-fondo) !important;
+  color: var(--color-exito) !important;
+  font-weight: var(--peso-negrita);
+}
+
+/* Celda revelada al rendirse */
+.sopa-celda--revelada {
+  background-color: var(--color-error-fondo) !important;
+  color: var(--color-error) !important;
+  font-weight: var(--peso-negrita);
+}
+
+/* Lista lateral de palabras */
+.sopa-palabras-panel {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-l);
+  box-shadow: var(--sombra-1);
+  width: 100%;
+}
+
+.sopa-palabras-panel h2 {
+  font-size: var(--tamano-m);
+  color: var(--color-primario);
+  margin: 0 0 var(--espacio-m) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sopa-palabras-lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 820px) {
+  .sopa-palabras-lista {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.sopa-palabra-item {
+  padding: var(--espacio-xs) var(--espacio-s);
+  border-radius: var(--radio-s);
+  background-color: var(--color-fondo);
+  font-size: var(--tamano-s);
+  font-weight: var(--peso-medio);
+  color: var(--color-texto);
+  transition: all var(--transicion);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sopa-palabra-item--encontrada {
+  background-color: var(--color-exito-fondo);
+  color: var(--color-exito);
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.sopa-palabra-item--revelada {
+  background-color: var(--color-error-fondo);
+  color: var(--color-error);
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* Panel de retroalimentación */
+.sopa-retro-contenedor {
+  margin-top: var(--espacio-l);
+  margin-bottom: var(--espacio-l);
+  max-width: 720px;
+}
+
